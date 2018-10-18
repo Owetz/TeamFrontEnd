@@ -6,6 +6,8 @@ body {
 .navbar a {
     color: #e0e0e0;
     font-weight: bold;
+    position: relative;
+    z-index: 10;
 }
 
 .navbar a:hover {
@@ -135,6 +137,7 @@ i.fab {
 
 .fanny-box label {
     position:relative;
+    margin:20px;
 }
 
 .fanny-h1
@@ -166,3 +169,201 @@ font-style: inherit;
     font-size: 10px;
     margin: 10px;
 }
+/* Fanny index.html */
+.fanny-box-header
+{
+    margin-top: -80px;
+    z-index: -10;
+}
+.fanny-box1
+{
+position: relative;
+background-image: url(filer/bilder/startsida-bio1.jpg);
+height: 100vh;
+overflow: hidden;
+}
+.fanny-box1:hover
+{
+    background-image: url(filer/bilder/startsida-bio2.jpg);
+    transition: 1s ease-in-out;
+}
+.fanny-box2
+{
+position: relative;
+background-image: url(filer/bilder/startsida-bistro1.jpg);
+height: 100vh;
+overflow: hidden;
+}
+.fanny-box2:hover
+{
+    background-image: url(filer/bilder/startsida-bistro2.jpg);
+    transition: 1s ease-in-out;
+}
+.fanny-loggabio
+{
+    text-align: center;
+    position: relative;
+    top: 40vh;
+}
+.fanny-loggabistro
+{
+    text-align:center;
+    position: relative;
+    top: 40vh;
+}
+.film-kategori-1
+{
+    position: absolute;
+    top: 1167px;
+    left: 360px;
+    z-index: 1;
+    text-shadow: 2px 2px white;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-family: 'didot';
+    font-size: 60px;
+    letter-spacing: 20px;
+}
+.rubrik-text-info
+{
+text-align: center;
+padding: 20px;
+margin: 20px;
+font-family: 'didot';
+}
+.info-liten-text
+{
+text-align: center;
+padding: 20px;
+margin: 1px;
+}
+.div-fanny-button
+{
+   margin: 0 auto;
+}
+.rad-under-rubrik
+{
+width: 500px;
+height: 1px;
+margin-top: 0rem;
+}
+/* HÄR JOGGAR FANNY NU scss start  */
+
+
+.fanny-hela-slide-box
+{
+    width: 100%;
+    position: relative;
+}
+.roww
+{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: -135px;
+    margin-bottom: 80px;
+}
+.pic1
+{
+padding: 2px;
+margin: 2px;
+}
+.pic2
+{
+padding: 2px;
+margin: 2px;
+}
+.pic3
+{
+    padding: 2px;
+    margin: 2px;
+}
+.pic4
+{
+    padding: 2px;
+    margin: 2px;
+}
+.pic5
+{
+    padding: 2px;
+    margin: 2px;
+}
+.pic6
+{
+    padding: 2px;
+    margin: 2px;
+}
+.pic7
+{
+    padding: 2px;
+    margin: 2px;
+}
+.pic8
+{
+    padding: 2px;
+    margin: 2px;
+}
+.pic9
+{
+    padding: 2px;
+    margin: 2px;
+}
+.pic10
+{
+    padding: 2px;
+    margin: 2px;
+}
+.pic11
+{
+    padding: 2px;
+    margin: 2px;
+}
+.pic12
+{
+    padding: 2px;
+    margin: 2px;
+}
+.pic13
+{
+    padding: 2px;
+    margin: 2px;
+}
+.pic14
+{
+    padding: 2px;
+    margin: 2px;
+}
+.pic15
+{
+    padding: 2px;
+    margin: 2px;
+}
+.rubrik1pop
+{
+font-family: 'didot';
+letter-spacing: 10px;
+text-shadow: 1px 1px gray;
+position: relative;
+left: 38vh;
+top: 10vh;
+}
+.rubrik2pop2
+{
+font-family: 'didot';
+letter-spacing: 10px;
+text-shadow: 1px 1px gray;
+position: relative;
+left: 40vh;
+top: 10vh;
+bottom: 10vh;
+}
+.rubrik3pop3
+{
+font-family: 'didot';
+letter-spacing: 10px;
+text-shadow: 1px 1px gray;
+position: relative;
+left: 58vh;
+top: 10vh;
+}
+
+
+/* HÄR JOBBAR FANNY NU css slut  */
