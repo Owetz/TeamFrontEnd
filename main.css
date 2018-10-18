@@ -166,3 +166,91 @@ font-style: inherit;
     font-size: 10px;
     margin: 10px;
 }
+/* Fanny index.html */
+
+.fanny-box1
+{
+background-image: url(filer/bilder/startsida-bio1.jpg);
+height: 100vh;
+overflow: hidden;
+}
+.fanny-box1:hover
+{
+    background-image: url(filer/bilder/startsida-bio2.jpg);
+}
+.fanny-box2
+{
+background-image: url(filer/bilder/startsida-bistro1.jpg);
+height: 100vh;
+overflow: hidden;
+}
+.fanny-box2:hover
+{
+    background-image: url(filer/bilder/startsida-bistro2.jpg);
+}
+.fanny-loggabio
+{
+position: relative;
+}
+.fanny-loggabistro
+{
+ position: relative;
+}
+.fanny-slide
+{
+height: 400px;
+background-color: white;
+overflow: hidden;
+}
+.log1
+{
+position: absolute;
+left: 200px;
+top: 390px;
+font-family: sans-serif;
+text-shadow: 2px 2px;
+}
+.log2
+{
+position: absolute;
+left: 200px;
+top: 390px;
+font-family: sans-serif;
+text-shadow: 2px 2px;
+}
+.fanny-slide2
+{
+height: 400px;
+background-color: white;
+overflow: hidden;
+position: fixed;
+}
+.film-kategori-1
+{
+    position: absolute;
+    top: 1167px;
+    left: 360px;
+    z-index: 1;
+    text-shadow: 2px 2px white;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-family: 'didot';
+    font-size: 60px;
+    letter-spacing: 20px;
+}
+.rubrik-text-info
+{
+text-align: center;
+padding: 20px;
+margin: 20px;
+font-family: 'didot';
+}
+.info-liten-text
+{
+text-align: center;
+padding: 20px;
+margin: 1px;
+}
+.div-fanny-button
+{
+   margin: 0 auto;
+}
