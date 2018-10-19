@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     position:relative;
 }
@@ -167,6 +171,29 @@ dl.row dd a {
 i.fab {
     font-size: 30px;
 }
+
+.contact-link {
+    text-decoration: none;
+    color:#212529;
+}
+
+.contact-link:hover {
+    text-decoration:none;
+    color: #212529;
+  }
+
+form.col-sm-4.border.rounded.p-4 {
+    margin: 2rem;
+    background: #e2e2e259;
+}
+
+.form-div {
+    background: url(filer/bilder/meny-kontaktaoss.jpg);
+    background-size: cover;
+    background-position: bottom center;
+    background-attachment: fixed;
+}
+
 /* Newsletter */
 .fanny-box
 {

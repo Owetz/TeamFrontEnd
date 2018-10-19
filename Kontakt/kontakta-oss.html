@@ -133,95 +133,87 @@
                 <h4>Välkommen!</h4>
             </div>
         </section>
-        <section class="row">
-            <!-- Vänster kolumn -->
-            <div class="col-sm-12 col-md-4">
-                <h4 class="align-center col-sm-9">Kontakta oss!</h4>
-                <br>
-                    <form>
-                            <div class="form-group row">
-                              <label for="inputname" class="col-sm-12 col-md-4 col-form-label align-center">Namn</label>
-                              <div class="col-sm-12 col-md-6">
-                                <input type="text" class="form-control" id="inputname" placeholder="För-/Efternamn" required>
-                              </div>
-                            </div>
-                            <div class="form-group row">
-                              <label for="inputemail" class="col-sm-12 col-md-4 col-form-label align-center">Epost</label>
-                              <div class="col-sm-12 col-md-6">
-                                <input type="email" class="form-control" id="inputemail" placeholder="epost@exempel.se" required min="5">
-                              </div>
-                            </div>
-                            <div class="form-group row">
-                                <label for="inputphone" class="col-sm-12 col-md-4 col-form-label align-center">Telefon</label>
-                                <div class="col-sm-12 col-md-6">
-                                    <input type="tel" class="form-control" id="inputphone" placeholder="000 000 0000">
-                                </div>
-                            </div>
-                            <fieldset class="form-group">
-                              <div class="row">
-                                <legend class="col-form-label col-sm-12 col-md-4 pt-0 align-center">Kontakta via:</legend>
-                                <div class="col-sm-12 col-md-6">
-                                  <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
-                                    <label class="form-check-label" for="gridRadios1">
-                                      Telefon
-                                    </label>
-                                  </div>
-                                  <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
-                                    <label class="form-check-label" for="gridRadios2">
-                                      Epost
-                                    </label>
-                                  </div>
-                                </div>
-                              </div>
-                            </fieldset>
-                            <div class="form-group row">
-                              <div class="col-sm-10 align-center">
-                                <button type="submit" class="btn btn-primary">Sign in</button>
-                              </div>
-                            </div>
-                          </form>
+        <section class="row align-center">
+        </section>
+        <section class="row align-center justify-content-center">
+            <div class="col-sm-12 col-md-3 border-right p-3">
+                <h6>Biografens Öppettider</h6>
+                <p>Måndag-Tisdag 17.00</p>
+                <p>Onsdag-Torsdag 14.00</p>
+                <p>Fredag-Söndag 11.30</p>
             </div>
-            <!-- Mittenkolumnen -->
-            <div class="col-sm-12 col-md-4">
-                <section class="row p-3">
-                    <div class="col-sm-12 align-center">
+            <div class="col-sm-12 col-md-3 border-left p-3">
+                <h6>Bistrons Öppettider</h6>
+                <p><strong>Lunch</strong> Måndag-Fredag 11.30-15.00</p>
+                <p><strong>Middag</strong> Tisdag-Lördag 17.00-23.00 (stängt söndag-måndag)</p>
+                <p><strong>Brunch</strong> Lördag 11.00-16.00, Söndag 11.00-18.00</p>
+            </div>
+        </section>
+        <section class="row justify-content-center">
+            <div class="col-sm-12 col-md-6">
+                <div class="row justify-content-center align-center">
+                    <div class="col-sm-12 col-md-4 p-3">
                         <h6>ADRESS</h6>
-                        <p>Fontend Bio</p>
-                        <p>Tomtebodavägen 3A</p>
-                        <p>171 65 Solna</p>
+                        <p><i class="fas fa-home"></i> Tomtebodavägen 3A, Solna</p>
                     </div>
-                </section>
-                <section class="row p-3">
-                    <div class="col-sm-12 align-center">
-                        <h6>ÖPPETTIDER</h6>
-                        <p>Biokassan öppnar 30 minuter innan första visning och stänger när sista filmen för dagen startar. Däremot
-                            håller fortfarande bistron öppet enligt dess utsatta tider och det går utmärkt att köpa biljetter i
-                            våra automater fram tills hela lokalen stänger för kvällen.</p>
+                    <div class="col-sm-12 col-md-4 p-3">
+                        <h6>TELEFON</h6>
+                        <a class="contact-link" href="tel:+460729260780"><i class="fas fa-mobile-alt"></i>   +46 (0)72-926-0780</a>
                     </div>
-                </section>
-                <section class="row p-3">
-                    <div class="col-sm-12 align-center">
-                        <h6>Biografens Öppettider</h6>
-                        <p>Måndag-tisdag 17.00</p>
-                        <p>Onsdag-torsdag 14.00</p>
-                        <p>Fredag-söndag 11.30</p>
+                    <div class="col-sm-12 col-md-4 p-3">
+                        <h6>EPOST</h6>
+                        <a class="contact-link" href="mailto:info@frontend.se"><i class="far fa-envelope"></i>     info@frontend.se</a>
                     </div>
-                </section>
-                <section class="row p-3">
-                    <div class="col-sm-12 align-center">
-                        <h6>Bistrons Öppettider</h6>
-                        <p><strong>Lunch</strong> Måndag-Fredag 11.30-15.00</p>
-                        <p><strong>Middag</strong> Tisdag-lördag 17.00-23.00 (stängt söndag-måndag)</p>
-                        <p><strong>Brunch</strong> Lördag 11.00-16.00, Söndag 11.00-18.00</p>
-                    </section>
+                </div>
             </div>
-            <!-- /Mittenkolumnen -->
-            <!-- Höger kolumn -->
-            <div class="col-sm-12 col-md-4 p-3">
-
-            </div>
+        </section>
+        <section class="row justify-content-center form-div">
+            <form class="col-sm-4 border rounded p-4">
+                <div class="form-group row justify-content-center">
+                    <div class="col-sm-6">
+                        <input type="text" class="form-control" id="name" placeholder="För-/Efternamn">
+                    </div>
+                </div>
+                <div class="form-group row justify-content-center">
+                    <div class="col-sm-6">
+                        <input type="email" class="form-control" id="email" placeholder="epost@exempel.se">
+                    </div>
+                </div>
+                <div class="form-group row justify-content-center">
+                    <div class="col-sm-6">
+                        <input class="form-control" type="tel" id="phone" name="phone" placeholder="0729260780" pattern="[0-9]{3}[0-9]{3}[0-9]{4}"
+                            required />
+                    </div>
+                </div>
+                <fieldset class="form-group">
+                    <div class="row justify-content-center">
+                        <legend class="col-form-label col-sm-3 pt-0">Kontaktas via:</legend>
+                        <div class="col-sm-3">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="radio-phone" id="radio-phone" value="option1"
+                                    checked>
+                                <label class="form-check-label" for="radio-phone">
+                                    Telefon
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="radio-email" id="radio-email" value="option2">
+                                <label class="form-check-label" for="radio-email">
+                                    Epost
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </fieldset>
+                <div class="form-group row justify-content-center">
+                    <textarea class="form-control col-sm-6" id="" rows="3" placeholder="Meddelande"></textarea>
+                </div>
+                <div class="form-group row justify-content-center">
+                    <div class="col-sm-10 align-center">
+                        <button type="submit" class="btn btn-primary">Skicka</button>
+                    </div>
+                </div>
+            </form>
         </section>
     </main>
     <!-- /main -->
