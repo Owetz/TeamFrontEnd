@@ -49,9 +49,18 @@ body {
     color: white;
 }
 
+.mapouter {
+    text-align: right;
+    height: 400px;
+    width: 100%;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
 
 /* Main */
-
+.row .p-3 p{
+    margin: 0;
+}
 section.row{
     padding: 10px 0; 
 }
@@ -69,6 +78,12 @@ section.row{
 }
 
 main.container{
+    padding-top: 3rem;
+    min-height: 400px;
+    padding-bottom:5rem;
+}
+
+main.container-fluid {
     padding-top: 3rem;
     min-height: 400px;
     padding-bottom:5rem;
