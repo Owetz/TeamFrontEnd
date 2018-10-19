@@ -52,10 +52,36 @@ body {
 
 /* Main */
 
+section.row{
+    padding: 10px 0; 
+}
+
+.align-left{
+    text-align: left;
+}
+
+.align-center{
+    text-align: center;
+}
+
+.align-right {
+    text-align: right;
+}
+
 main.container{
     padding-top: 3rem;
     min-height: 400px;
     padding-bottom:5rem;
+}
+
+ul.frontend-list {
+    text-align: center;
+}
+
+ul.frontend-list li {
+    width: 30%;
+    margin: auto;
+    text-align: left;
 }
 
 /* Footer */
