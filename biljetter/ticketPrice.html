@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>frontendBio</title>
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <header>
+
+        <div class="container">
+            <nav id="topBarNav" class="navbar navbar-inverse">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <ul class="nav nav-pills flex-column flex-md-row justify-content-end">
+
+                            <li id="topBarList" class="nav-item">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Biljetter
+                                    <span class="caret"></span></a>
+
+
+                                <ul class="dropdown-menu">
+                                    <li><a href="bookandbuy.html">Köp och boka</a></li>
+                                    <li><a href="ticketPrice.html">Biljettpris och info</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Filmer
+                                    <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="currentMovies.html">Aktuella fillmer</a></li>
+                                    <li><a href="upcomingMovies.html">Kommande fillmer</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Erbjudande
+                                    <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="giftCard.html">Presentkort</a></li>
+                                    <li><a href="TravelerCard.html">Medlemskort</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Frontend Bistro
+                                    <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="Meny.html">Meny</a></li>
+                                    <li><a href="BookTable.html">Boka bord</a></li>
+                                </ul>
+                            </li>
+
+
+                            <li class="nav-item">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Kontakta Oss
+                                    <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="FindUs.html">Hitta oss</a></li>
+                                    <li><a href="Opened.html">Öppetider</a></li>
+                                </ul>
+                            </li>
+
+
+                            <li class="nav-item">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Om Oss
+                                    <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="Cinema.html">Biograf</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <span>
+                        <div id="searchId" class="search-container">
+                            <form action="/action_page.php">
+                                <input type="text" placeholder="Sök.." name="search">
+                            </form>
+                        </div>
+                    </span>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+
+        <div class="container">
+
+            <h3> Priser </h3>
+            Ordinarie pris: 120 kr<br>
+            Medlemmar : 80 kr
+
+
+
+            <h3> Beställa mat</h3>
+            Du kan i slutet av ditt biljettköp på hemsidan förbeställa våra matpaket till salongen. Dryck köps på plats. <br>På plats erbjuder vi ett antal drop in-paket per kväll.<br> för dig som beställde biljetten för sent eller blir sugen på att komplettera biobesöket i sista minuten.<br> Under filmen går det också bra att köpa till något i vår salongsbar eller ute i foajén.
+
+            <h3> Mat </h3>
+            På Frontend erbjuder vi två olika matpaket som kan förbeställas i samband med att du köper din biljett. Ett lite enklare och ett mellan.<br> Maten serveras vid din plats i samband med insläppet. Dryck kan du välja vad du vill beställa i baren.<br> Om du hellre vill äta en bit innan eller efter föreställningen går det bra att boka bord i bistron.<br>
+            <h5> Liten baguette ”Cubano” 65 kr </h5>
+            <ul>
+                <li>Tomat </li>
+                <li> Manchego</li>
+                <li> Serrano</li>
+                <li> Serveras i papper </li>
+            </ul>
+
+            <br>
+            <h5> Kyckling- och ankleverparfait 110 kr </h5>
+            <ul>
+                <li>I burk och crostini</li>
+                <li>Serveras i glasbruk</li>
+            </ul>
+
+
+
+            <h3> Köpvillkor </h3>
+            På Frontend köper du din biljett via nätet eller i kassan.På nätet kan du samtidigt förbeställa våra salongsmatpaket,matpaketet <br> väntar sedan på din plats när du anländer.Dryck köper du på plats.<br>Köper du biljetter via vår hemsida får du en biljett skickad till din angivna mailadress,<br> som du sedan kan visa upp direkt i din mobil eller skriva ut hemma. <br><strong>Vi har fri placering av sitt plats i biosalongen. </strong>
+
+            <h3> Öppettider</h3>
+
+            Däremot håller fortfarande bistron öppet enligt dess utsatta tider, och det går utmärkt att köpa biljetter i våra automater fram tills hela lokalen stänger för kvällen.
+
+
+            <h3> Åldersgränser</h3>
+
+            *Målsman är en person som fyllt 18 år.
+
+
+        </div>
+    </main>
+</body>
+
+</html>
