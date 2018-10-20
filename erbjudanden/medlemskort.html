@@ -13,28 +13,18 @@
         crossorigin="anonymous">
     <link rel="stylesheet" href="../main.css">
 
-    <title>Kontakta oss | Frontend</title>
+    <title>Medlemskort | Frontend</title>
 
     <!-- Style för header-bakgrund -->
     <style>
         .head-hero {
             margin-top: -80px;
             height: 400px;
+            background: url(../filer/bilder/meny-erbjudanden.jpg);
             background-attachment: fixed;
             background-position: center bottom;
             background-size: cover;
             z-index: -1;
-        }
-
-        .navbar a {
-            color: #a0a0a0;
-            font-weight: bold;
-            position: relative;
-            z-index: 10;
-        }
-
-        .navbar a:hover {
-            color: white;
         }
     </style>
 </head>
@@ -105,123 +95,71 @@
     <!-- header -->
     <header class="container-fluid head-hero position-relative">
         <div class="row justify-content-center">
-            <div class="mapouter">
-                <div class="gmap_canvas"><iframe width="100%" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=Tomtebodav%C3%A4gen%203A%2C%20171%2065%20Solna&t=&z=15&ie=UTF8&iwloc=&output=embed"
-                        frameborder="0" scrolling="yes" marginheight="0" marginwidth="0"></iframe><a href="https://www.pureblack.de"></a></div>
-                <style>
-                    .mapouter {
-                        text-align: right;
-                        height: 400px;
-                        width: 100%;
-                    }
-
-                    .gmap_canvas {
-                        overflow: hidden;
-                        background: none !important;
-                        height: 400px;
-                        width: 100%;
-                    }
-                </style>
-            </div>
+            <h1 class="hero-heading">Medlemskort</h1>
         </div>
     </header>
-    <!-- /header -->
-    <!-- Main -->
-    <main class="container-fluid bg-light">
+    <!-- header -->
+
+    <main class="container">
+        <section class="row justify-content-center">
+            <h2>Köp Medlemskort</h2>
+        </section>
         <section class="row">
-            <div class="col-sm-12 align-center">
-                <h4>Välkommen!</h4>
-            </div>
-        </section>
-        <section class="row align-center">
-        </section>
-        <section class="row align-center justify-content-center">
-            <div class="col-sm-12 col-md-3 border-right p-3">
-                <h6>Biografens Öppettider</h6>
-                <p>Måndag-Tisdag 17.00</p>
-                <p>Onsdag-Torsdag 14.00</p>
-                <p>Fredag-Söndag 11.30</p>
-            </div>
-            <div class="col-sm-12 col-md-3 border-left p-3">
-                <h6>Bistrons Öppettider</h6>
-                <p><strong>Lunch</strong> Måndag-Fredag 11.30-15.00</p>
-                <p><strong>Middag</strong> Tisdag-Lördag 17.00-23.00 (stängt söndag-måndag)</p>
-                <p><strong>Brunch</strong> Lördag 11.00-16.00, Söndag 11.00-18.00</p>
-            </div>
-        </section>
-        <section class="row justify-content-center p-3">
-            <div class="col-sm-12 col-md-6">
-                <div class="row justify-content-center align-center">
-                    <div class="col-sm-12 col-md-4 p-3">
-                        <h6>ADRESS</h6>
-                        <p><i class="fas fa-home"></i> Tomtebodavägen 3A, Solna</p>
+            <div class="col-sm-12">
+                <div class="card text-center">
+                    <div class="card-header">
+                        <h6>PRISER</h6>
                     </div>
-                    <div class="col-sm-12 col-md-4 p-3">
-                        <h6>TELEFON</h6>
-                        <a class="contact-link" href="tel:+460729260780"><i class="fas fa-mobile-alt"></i>   +46 (0)72-926-0780</a>
-                    </div>
-                    <div class="col-sm-12 col-md-4 p-3">
-                        <h6>EPOST</h6>
-                        <a class="contact-link" href="mailto:info@frontend.se"><i class="far fa-envelope"></i>     info@frontend.se</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- /first-section -->
-        <!-- second-section -->
-        <section class="row justify-content-center form-div text-white">
-            <form class="col-sm-6 border rounded p-4">
-                <div class="form-group row justify-content-center">
-                    <div class="col-sm-6">
-                        <input type="text" class="form-control" id="name" placeholder="För-/Efternamn">
-                    </div>
-                </div>
-                <div class="form-group row justify-content-center">
-                    <div class="col-sm-6">
-                        <input type="email" class="form-control" id="email" placeholder="epost@exempel.se">
-                    </div>
-                </div>
-                <div class="form-group row justify-content-center">
-                    <div class="col-sm-6">
-                        <input class="form-control" type="tel" id="phone" name="phone" placeholder="0729260780" pattern="[0-9]{3}[0-9]{3}[0-9]{4}"
-                            required />
-                    </div>
-                </div>
-                <fieldset class="form-group">
-                    <div class="row justify-content-center">
-                        <legend class="col-form-label col-sm-3 pt-0">Kontaktas via:</legend>
-                        <div class="col-sm-3">
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" name="radio-phone" id="radio-phone" value="option1"
-                                    checked>
-                                <label class="form-check-label" for="radio-phone">
-                                    Telefon
-                                </label>
+                    <div class="card-body">
+                        <section class="row">
+                            <div class="col-sm-12 col-md-4">
+                                <div class="card text-center border-info">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-info">Medlemskort 2018 *</h5>
+                                        <a href="#" class="btn btn-info">600 SEK</a>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" name="radio-email" id="radio-email" value="option2">
-                                <label class="form-check-label" for="radio-email">
-                                    Epost
-                                </label>
+                            <div class="col-sm-12 col-md-4">
+                                <div class="card text-center border-info">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-info">Medlemskort 2018, Reducerat **</h5>
+                                        <a href="#" class="btn btn-info">160 SEK</a>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
+                            <div class="col-sm-12 col-md-4">
+                                <div class="card text-center border-info">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-info">Bronskort 2018</h5>
+                                        <a href="#" class="btn btn-info">1700 SEK</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <hr>
+                        <section class="row justify-content-center text-info">
+                            <h5>Köpvillkor</h5>
+                            <p>På <strong>FrontEnd</strong> köper du din biljett via nätet eller i kassan.<br> 
+                            På nätet kan du samtidigt förbeställa våra salongsmatpaket och matpaketet väntar sedan på din plats när du anländer. <br>
+                            Dryck köper du på plats. Köper du biljetter via nätet får du en biljett skickad till din angivna mailadress som
+                            du sedan kan visa upp direkt i din mobil eller skriva ut hemma. Vi har fri placering av sittplats i biosalongen.
+                            </p>
+                        </section>
                     </div>
-                </fieldset>
-                <div class="form-group row justify-content-center">
-                    <textarea class="form-control col-sm-6" id="" rows="3" placeholder="Meddelande"></textarea>
-                </div>
-                <div class="form-group row justify-content-center">
-                    <div class="col-sm-10 align-center">
-                        <button type="submit" class="btn btn-primary">Skicka</button>
+                    <div class="card-footer text-muted">
+                        <p>* Medlemskortet kostar 600kr och är laddat med 4 biobiljetter till kommande filmer som kan nyttjas i valfri salong och valfri fåtölj till valfri film (värde upp till 210kr per biljett, gäller dock ej specialarrangemang som opera eller teater). <br>
+                        Medlemskortet ger också 5% rabatt på inköp i biograf och restaurang på allt utom alkohol.</p>
+                        <hr>
+                        <p>** Gäller pensionärer, studenter och du som är under 26 år.</p>
                     </div>
                 </div>
-            </form>
+            </div>
         </section>
     </main>
-    <!-- /main -->
+
     <!-- Footer -->
     <footer class="container-fluid">
-        <!-- Nyhetsbrev -->
         <div class="row">
             <div class="shadow-lg fanny-box">
                 <label>
@@ -234,8 +172,6 @@
                 </label>
             </div>
         </div>
-        <!-- /Nyhetsbrev -->
-        <!-- Footer-länkar -->
         <dl class="row">
             <div class="col-sm-12 col-md-2">
                 <dt class="col-sm-12"><a href="#">Biljetter</a></dt>
@@ -272,9 +208,6 @@
                 <dd class="col-sm-12"><a href="#">Biograf</a></dd>
             </div>
         </dl>
-        <!-- /footerlänkar -->
-
-        <!-- Sociala media -->
         <div class="row justify-content-center">
             <ul class="list-inline social-list">
                 <li class="list-inline-item social-item">
@@ -292,12 +225,10 @@
         <div class="row justify-content-center">
             <h4>#TeamFrontEnd</h4>
         </div>
-        <!-- /Sociala media -->
         <div class="row copy-container justify-content-center">
             <p>Copyright &copy; TeamFrontEnd</p>
         </div>
     </footer>
-    <!-- /footer -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
