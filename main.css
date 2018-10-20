@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     position:relative;
 }
@@ -49,13 +53,54 @@ body {
     color: white;
 }
 
+.mapouter {
+    text-align: right;
+    height: 400px;
+    width: 100%;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
 
 /* Main */
+.row .p-3 p{
+    margin: 0;
+}
+section.row{
+    padding: 10px 0; 
+}
+
+.align-left{
+    text-align: left;
+}
+
+.align-center{
+    text-align: center;
+}
+
+.align-right {
+    text-align: right;
+}
 
 main.container{
     padding-top: 3rem;
     min-height: 400px;
     padding-bottom:5rem;
+}
+
+main.container-fluid {
+    padding-top: 3rem;
+    min-height: 400px;
+    padding-bottom:5rem;
+}
+
+ul.frontend-list {
+    text-align: center;
+}
+
+ul.frontend-list li {
+    width: 30%;
+    margin: auto;
+    text-align: left;
 }
 
 /* Footer */
@@ -126,6 +171,29 @@ dl.row dd a {
 i.fab {
     font-size: 30px;
 }
+
+.contact-link {
+    text-decoration: none;
+    color:#212529;
+}
+
+.contact-link:hover {
+    text-decoration:none;
+    color: #212529;
+  }
+
+form.col-sm-6.border.rounded.p-4 {
+    margin: 2rem;
+    background: #e2e2e259;
+}
+
+.form-div {
+    background: url(filer/bilder/meny-kontaktaoss.jpg);
+    background-size: cover;
+    background-position: bottom center;
+    background-attachment: fixed;
+}
+
 /* Newsletter */
 .fanny-box
 {
