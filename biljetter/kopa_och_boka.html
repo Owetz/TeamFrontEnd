@@ -20,8 +20,9 @@
         .head-hero {
             margin-top: -80px;
             height: 400px;
-            background: url(filer/bilder/meny-biljetter.jpg);
+            background: url(../filer/bilder/meny-biljetter.jpg);
             background-size: cover;
+            background-position: center bottom;
             background-attachment: fixed;
             z-index: -1;
         }
@@ -100,18 +101,14 @@
     <!-- header -->
 
     <main class="container">
-        
-
         <div class="container">
             <h1 class="text-center mb-5 mt-4">
                 Välj film
             </h1>
             <form action="/action_page.php">
-        
-                <div class="row justify-content-center mb-5">
+                <div class="form-row justify-content-center mb-5">
                     <div class="col-md-4 mb-3">
-        
-                        <label for="film">Välj film</label>
+                        <!-- <label for="film">Välj film</label> -->
                         <select class="custom-select d-block w-100" id="film" required="">
                             <option value="">Välj film</option>
                             <option>Alla filmer</option>
@@ -125,14 +122,13 @@
                             <option>Film H</option>
                             <option>Film I</option>
                             <option>Film J</option>
-        
                         </select>
                         <div class="invalid-feedback">
                             Välj en film i rullistan.
                         </div>
                     </div>
                     <div class="col-md-4 mb-3">
-                        <label for="datum">Välj datum</label>
+                        <!-- <label for="datum">Välj datum</label> -->
                         <select class="custom-select d-block w-100" id="datum" required="">
                             <option value="">Välj datum</option>
                             <option>25 oktober</option>
@@ -167,11 +163,11 @@
         <div class="container">
             <div class="row justify-content-center mb-2">
                 <div class="col-md-8">
-                    <div class="container mt-3">
+                    <div class="container mt-3 p-3 border bg-light rounded">
                         <!-- Media top -->
                         <div class="media">
                                 <a href="#" data-toggle="modal" data-target=".bd-example-modal-lg-film1">
-    <!--Bildlänk-->             <img src="../TeamFrontEnd-master/filer/bilder/a1.jpg" class="align-self-start mr-3" alt="filmaffisch natt" style="width:100px"></a>
+    <!--Bildlänk-->             <img src="../filer/bilder/a1.jpg" class="align-self-start mr-3" alt="filmaffisch natt" style="width:100px"></a>
                             <div class="media-body">
     <!--Titellänk-->            <h5 class="rubrik"><a class="d-inline-block mb-2 text-dark" href="#" data-toggle="modal" data-target=".bd-example-modal-lg-film1">Det händer om natten</a></h5>
                                 <div class="mb-1 text-muted">Komedi &#124; 1 tim 30 min &#124; Från 7 år &#124; Ordinarie pris: 120 kr, medlemspris: 80 kr</div>
@@ -189,11 +185,11 @@
 
             <div class="row justify-content-center mb-2">
                 <div class="col-md-8">
-                    <div class="container mt-3">
+                    <div class="container mt-3 p-3 border bg-light rounded">
                         <!-- Media top -->
                         <div class="media">
         <!--Bildlänk-->     <a href="#" data-toggle="modal" data-target=".bd-example-modal-lg-film2">
-                            <img src="../TeamFrontEnd-master/filer/bilder/a5.jpg" class="align-self-start mr-3" alt="filmaffisch två kramande personer" style="width:100px"></a>
+                            <img src="../filer/bilder/a5.jpg" class="align-self-start mr-3" alt="filmaffisch två kramande personer" style="width:100px"></a>
                             <div class="media-body">
         <!--Titellänk-->     <h5 class="rubrik"><a class="d-inline-block mb-2 text-dark" href="#" data-toggle="modal" data-target=".bd-example-modal-lg-film2">Sommaren med dig</a></h5>
                                 <div class="mb-1 text-muted">Drama &#124; 1 tim 30 min &#124; Från 7 år &#124; Ordinarie pris: 120 kr, medlemspris: 80 kr</div>
@@ -209,11 +205,11 @@
 <!--Länka film 3 till modul 3 (efter filmlistan) genom koden "data-toggle="modal" data-target=".bd-example-modal-lg-film3" i bildlänk och titellänk-->
             <div class="row justify-content-center mb-2">
                 <div class="col-md-8">
-                    <div class="container mt-3">
+                    <div class="container mt-3 p-3 border bg-light rounded">
                         <!-- Media top -->
                         <div class="media">
          <!--Bildlänk-->    <a href="#" data-toggle="modal" data-target=".bd-example-modal-lg-film3">
-                            <img src="../TeamFrontEnd-master/filer/bilder/a9.jpg" class="align-self-start mr-3" alt="filmaffisch berg" style="width:100px"></a>
+                            <img src="../filer/bilder/a9.jpg" class="align-self-start mr-3" alt="filmaffisch berg" style="width:100px"></a>
                             <div class="media-body">
         <!--Titellänk-->     <h5 class="rubrik"><a class="d-inline-block mb-2 text-dark" href="#" data-toggle="modal" data-target=".bd-example-modal-lg-film3">Lost in the mountains</a></h5>
                                  <div class="mb-1 text-muted">Action &#124; 1 tim 30 min &#124; Från 7 år &#124; Ordinarie pris: 120 kr, medlemspris: 80 kr</div>
@@ -230,11 +226,11 @@
              <!--Länka film 4 till modul 4 (efter filmlistan) genom koden "data-toggle="modal" data-target=".bd-example-modal-lg-film4" i bildlänk och titellänk-->
             <div class="row justify-content-center mb-2">
                 <div class="col-md-8">
-                    <div class="container mt-3">
+                    <div class="container mt-3 p-3 border bg-light rounded">
                         <!-- Media top -->
                         <div class="media">
           <!--Bildlänk--> <a href="#" data-toggle="modal" data-target=".bd-example-modal-lg-film4">
-                            <img src="../TeamFrontEnd-master/filer/bilder/a13.jpg" class="align-self-start mr-3" alt="filmaffisch storstad" style="width:100px"></a>
+                            <img src="../filer/bilder/a13.jpg" class="align-self-start mr-3" alt="filmaffisch storstad" style="width:100px"></a>
                             <div class="media-body">
         <!--Titellänk-->     <h5 class="rubrik"><a class="d-inline-block mb-2 text-dark" href="#" data-toggle="modal" data-target=".bd-example-modal-lg-film4">New York adventure</a></h5>
                                 <div class="mb-1 text-muted">Komedi &#124; 1 tim 30 min &#124; Från 7 år &#124; Ordinarie pris: 120 kr, medlemspris: 80 kr</div>
@@ -251,11 +247,11 @@
             <!--Länka film 5 till modul 5 (efter filmlistan) genom koden "data-toggle="modal" data-target=".bd-example-modal-lg-film5" i bildlänk och titellänk-->
             <div class="row justify-content-center mb-2">
                 <div class="col-md-8">
-                    <div class="container mt-3 mb-5">
+                    <div class="container mt-3 mb-5 p-3 border bg-light rounded">
                         <!-- Media top -->
                         <div class="media">
         <!--Bildlänk-->  <a href="#" data-toggle="modal" data-target=".bd-example-modal-lg-film5"> 
-                                    <img src="../TeamFrontEnd-master/filer/bilder/a15.jpg" class="align-self-start mr-3" alt="filmaffisch person vid biograf" style="width:100px"></a>
+                                    <img src="../filer/bilder/a15.jpg" class="align-self-start mr-3" alt="filmaffisch person vid biograf" style="width:100px"></a>
   
                             <div class="media-body">
         <!--Titellänk-->    <h5 class="rubrik"><a class="d-inline-block mb-2 text-dark" href="#" data-toggle="modal" data-target=".bd-example-modal-lg-film5">Mitt liv som filmskapare</a></h5>
@@ -289,7 +285,7 @@ role="dialog" aria-labelledby="film1" aria-hidden="true"><!-- Länkning till fil
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-lg-4 col-lg-4">
-                                <img src="../TeamFrontEnd-master/filer/bilder/a1.jpg" class="align-self-start mr-3" alt="filmaffisch natt" style="max-width:100%">
+                                <img src="../filer/bilder/a1.jpg" class="align-self-start mr-3" alt="filmaffisch natt" style="max-width:100%">
                             </div>
                             <div class="col-8 col-lg-8 filminfo_text">
                                  <p><span class="filminfo_rubrik">Språk:</span> Engelska<br>
@@ -327,7 +323,7 @@ role="dialog" aria-labelledby="film2" aria-hidden="true"><!-- Länkning till fil
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-lg-4 col-lg-4">
-                                <img src="../TeamFrontEnd-master/filer/bilder/a5.jpg" class="align-self-start mr-3" alt="filmffisch två kramande personer" style="max-width:100%">
+                                <img src="../filer/bilder/a5.jpg" class="align-self-start mr-3" alt="filmffisch två kramande personer" style="max-width:100%">
                             </div>
                             <div class="col-8 col-lg-8 filminfo_text">
                                  <p><span class="filminfo_rubrik">Språk:</span> Engelska<br>
@@ -364,7 +360,7 @@ role="dialog" aria-labelledby="film3" aria-hidden="true"><!-- Länkning till fil
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-lg-4 col-lg-4">
-                                <img src="../TeamFrontEnd-master/filer/bilder/a9.jpg" class="align-self-start mr-3" alt="filmaffisch berg" style="max-width:100%">
+                                <img src="../filer/bilder/a9.jpg" class="align-self-start mr-3" alt="filmaffisch berg" style="max-width:100%">
                             </div>
                             <div class="col-8 col-lg-8 filminfo_text">
                                  <p><span class="filminfo_rubrik">Språk:</span> Engelska<br>
@@ -403,7 +399,7 @@ role="dialog" aria-labelledby="film4" aria-hidden="true"><!-- Länkning till fil
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-lg-4 col-lg-4">
-                                <img src="../TeamFrontEnd-master/filer/bilder/a13.jpg" class="align-self-start mr-3" alt="filmaffisch storstad" style="max-width:100%">
+                                <img src="../filer/bilder/a13.jpg" class="align-self-start mr-3" alt="filmaffisch storstad" style="max-width:100%">
                             </div>
                             <div class="col-8 col-lg-8 filminfo_text">
                                  <p><span class="filminfo_rubrik">Språk:</span> Engelska<br>
@@ -441,7 +437,7 @@ aria-labelledby="film5" aria-hidden="true"><!-- Länkning till film 5 <div class
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-lg-4 col-lg-4">
-                            <img src="../TeamFrontEnd-master/filer/bilder/a15.jpg" class="align-self-start mr-3" alt="filmaffisch person vid biograf" style="max-width:100%">
+                            <img src="../filer/bilder/a15.jpg" class="align-self-start mr-3" alt="filmaffisch person vid biograf" style="max-width:100%">
                         </div>
                         <div class="col-8 col-lg-8 filminfo_text">
                              <p><span class="filminfo_rubrik">Språk:</span> Engelska<br>
