@@ -1,3 +1,4 @@
+
 * {
     box-sizing: border-box;
 }
@@ -172,6 +173,13 @@ dl.row dd a {
     color:gray;
 }
 
+
+i.fab {
+    font-size: 30px;
+}
+
+/* Newsletter */
+
 .fab {
     font-size: 30px;
 }
@@ -199,6 +207,7 @@ form.col-sm-6.border.rounded.p-4 {
 }
 
 /* Newsletter */
+
 .fanny-box
 {
     text-align: center;
@@ -241,6 +250,160 @@ font-style: inherit;
     font-size: 10px;
     margin: 10px;
 }
+
+/*--Titts css Köpa och boka-sida--*/
+
+.buttonforestalln{
+
+    margin-top:2rem;
+    background-color:#8c6c49;
+    color:white;
+    border:none;
+
+}/* knapp Visa föreställning*/
+
+
+.filminfo_rubrik{
+
+    font-weight: bold;
+} /*Rubriker Språk, Textning, Skådespelare, Handling
+ i modal/popup */
+
+ 
+/* css till valja_biljetter.html*/
+.friplacering{
+    padding: 1rem;
+    font-size:1rem;  
+}
+
+.col_valja_biljetter{
+    width:65%;
+}
+
+
+/*Diverse bruna knappar*/
+
+.brownButton{
+    background-color:#8c6c49;
+    color:white;
+    border:none;
+}
+
+.brownButton:hover{
+    background:rgb(102, 94, 80);
+    color:white;
+    border:none;
+}
+
+.biljettordpris, .modalpris{
+    font-weight: bold;
+}
+
+.link_brownButton{
+    background:#8c6c49;
+    color:white;
+    border:none;
+}
+
+.link_brownButton:hover{
+    background:#886846;
+    color:white;
+    border:none;
+}
+
+.link_brownButton:active{
+    background:rgb(70, 60, 44);
+    color:white;
+    border:none;
+}
+
+
+.rubrik{
+    color:#8c6c49;
+}
+
+.knappgrupp_valja_film, .knappgrupp_valja_mat{
+    margin-bottom:4rem;
+}
+
+/* Collapse button och modal
+från sidorna välja_biljetter och välja_mat*/
+
+.show_message{
+    background:transparent;
+    border:2px solid #f3f2f2;
+    box-shadow: 5px 10px 8px #888888;
+    margin-bottom:5rem;
+}
+
+.collaps_info, .modal_info{
+
+    padding-left: 1rem;
+}
+
+.collaps_hr, .modal_hr{
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.col_collaps_hr, .col_modal_hr{
+    width: 82%;
+}
+
+.collaps_rubrik, .modal_kostnad
+{ color: #8c6c49;}
+
+.modaltitel
+{ color: #8c6c49;
+    padding-left:2rem;} 
+
+.modal_rubrik{ color: #8c6c49;
+    padding-left:1rem;}
+
+
+
+.collaps_col_infotext{
+    margin-top: 1.5rem;
+}
+
+/*Knappar Valja antal biljetter och antal matpaket*/
+
+
+.rundKnappPlus{
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding-top: 0;
+    margin-bottom: 1rem;
+    margin-right: 0.7rem;
+}
+
+.rundKnappMinus{
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding-top: 0;
+    margin-bottom: 1rem;
+    margin-left: 0.7rem;
+}
+
+.antal_raknare_super{
+    font-size: 2rem;
+    padding-bottom: 0;
+    display:inline-block;       
+}
+
+.antal_matpaket{
+    margin-bottom:0.5rem;
+}
+
+.brown-pill{
+    background:#8c6c49;
+    color:white;
+}
+
+/* Tittis CSS slut */
+
 /* Fanny index.html */
 
 .fanny-box-header
