@@ -1,3 +1,8 @@
+
+* {
+    box-sizing: border-box;
+}
+
 body {
     position:relative;
 }
@@ -6,6 +11,8 @@ body {
 .navbar a {
     color: #e0e0e0;
     font-weight: bold;
+    position: relative;
+    z-index: 10;
 }
 
 .navbar a:hover {
@@ -47,12 +54,58 @@ body {
     color: white;
 }
 
+.mapouter {
+    text-align: right;
+    height: 400px;
+    width: 100%;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
 
 /* Main */
+a.text-info {
+    text-decoration: none;
+} 
+
+.row .p-3 p{
+    margin: 0;
+}
+section.row{
+    padding: 10px 0; 
+}
+
+.align-left{
+    text-align: left;
+}
+
+.align-center{
+    text-align: center;
+}
+
+.align-right {
+    text-align: right;
+}
 
 main.container{
+    padding-top: 3rem;
+    min-height: 400px;
+    padding-bottom:8rem;
+}
+
+main.container-fluid {
+    padding-top: 3rem;
     min-height: 400px;
     padding-bottom:5rem;
+}
+
+ul.frontend-list {
+    text-align: center;
+}
+
+ul.frontend-list li {
+    width: 30%;
+    margin: auto;
+    text-align: left;
 }
 
 /* Footer */
@@ -120,9 +173,39 @@ dl.row dd a {
     color:gray;
 }
 
+
 i.fab {
     font-size: 30px;
 }
+
+/* Newsletter */
+
+.fab {
+    font-size: 30px;
+}
+
+.contact-link {
+    text-decoration: none;
+    color:#212529;
+}
+
+.contact-link:hover {
+    text-decoration:none;
+    color: #212529;
+  }
+
+form.col-sm-6.border.rounded.p-4 {
+    margin: 2rem;
+    background: #e2e2e259;
+}
+
+.form-div {
+    background: url(filer/bilder/meny-kontaktaoss.jpg);
+    background-size: cover;
+    background-position: bottom center;
+    background-attachment: fixed;
+}
+
 /* Newsletter */
 
 .fanny-box
@@ -135,6 +218,7 @@ i.fab {
 
 .fanny-box label {
     position:relative;
+    margin:20px;
 }
 
 .fanny-h1
@@ -188,13 +272,11 @@ font-style: inherit;
  
 /* css till valja_biljetter.html*/
 .friplacering{
-
     padding: 1rem;
     font-size:1rem;  
 }
 
 .col_valja_biljetter{
-
     width:65%;
 }
 
@@ -202,7 +284,6 @@ font-style: inherit;
 /*Diverse bruna knappar*/
 
 .brownButton{
-
     background-color:#8c6c49;
     color:white;
     border:none;
@@ -289,7 +370,6 @@ från sidorna välja_biljetter och välja_mat*/
 
 
 .rundKnappPlus{
-
     border-radius: 50%;
     font-weight: bold;
     font-size: 1.2rem;
@@ -299,7 +379,6 @@ från sidorna välja_biljetter och välja_mat*/
 }
 
 .rundKnappMinus{
-
     border-radius: 50%;
     font-weight: bold;
     font-size: 1.2rem;
@@ -309,44 +388,259 @@ från sidorna välja_biljetter och välja_mat*/
 }
 
 .antal_raknare_super{
-    /*font-weight: bold;*/
     font-size: 2rem;
     padding-bottom: 0;
     display:inline-block;       
-    
 }
 
 .antal_matpaket{
-
     margin-bottom:0.5rem;
 }
 
 .brown-pill{
     background:#8c6c49;
     color:white;
-    
-
-
 }
 
 /* Tittis CSS slut */
 
+/* Fanny index.html */
+
+.fanny-box-header
+{
+    margin-top: -80px;
+    z-index: -10;
+}
+.fanny-box1
+{
+position: relative;
+background-image: url(filer/bilder/startsida-bio1.jpg);
+height: 100vh;
+overflow: hidden;
+}
+.fanny-box1:hover
+{
+    background-image: url(filer/bilder/startsida-bio2.jpg);
+    transition: 1s ease-in-out;
+}
+.fanny-box2
+{
+position: relative;
+}
+.fanny-box2
+{
+background-image: url(filer/bilder/startsida-bistro1.jpg);
+height: 100vh;
+overflow: hidden;
+}
+.fanny-box2:hover
+{
+    background-image: url(filer/bilder/startsida-bistro2.jpg);
+    transition: 1s ease-in-out;
+}
+.fanny-loggabio
+{
+    text-align: center;
+    position: relative;
+    top: 40vh;
+}
+.fanny-loggabistro
+{
+    text-align:center;
+    position: relative;
+    top: 40vh;
+}
+.fanny-loggabio
+{
+position: relative;
+}
+.fanny-loggabistro
+{
+ position: relative;
+}
+.fanny-slide
+{
+height: 400px;
+background-color: white;
+overflow: hidden;
+}
+.log1
+{
+position: absolute;
+left: 200px;
+top: 390px;
+font-family: sans-serif;
+text-shadow: 2px 2px;
+}
+.log2
+{
+position: absolute;
+left: 200px;
+top: 390px;
+font-family: sans-serif;
+text-shadow: 2px 2px;
+}
+.fanny-slide2
+{
+height: 400px;
+background-color: white;
+overflow: hidden;
+position: fixed;
+}
+.film-kategori-1
+{
+    position: absolute;
+    top: 1167px;
+    left: 360px;
+    z-index: 1;
+    text-shadow: 2px 2px white;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-family: 'didot';
+    font-size: 60px;
+    letter-spacing: 20px;
+}
+.rubrik-text-info
+{
+text-align: center;
+padding: 20px;
+margin: 20px;
+font-family: 'didot';
+}
+.info-liten-text
+{
+text-align: center;
+padding: 20px;
+margin: 1px;
+}
+.div-fanny-button
+{
+   margin: 0 auto;
+}
+
+.rad-under-rubrik
+{
+width: 500px;
+height: 1px;
+margin-top: 0;
+}
+/* HÄR JOGGAR FANNY NU scss start  */
 
 
+.fanny-hela-slide-box
+{
+    width: 100%;
+    position: relative;
+}
+.roww
+{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: -135px;
+    margin-bottom: 80px;
+}
+.pic1
+{
+padding: 2px;
+margin: 2px;
+}
+.pic2
+{
+padding: 2px;
+margin: 2px;
+}
+.pic3
+{
+    padding: 2px;
+    margin: 2px;
+}
+.pic4
+{
+    padding: 2px;
+    margin: 2px;
+}
+.pic5
+{
+    padding: 2px;
+    margin: 2px;
+}
+.pic6
+{
+    padding: 2px;
+    margin: 2px;
+}
+.pic7
+{
+    padding: 2px;
+    margin: 2px;
+}
+.pic8
+{
+    padding: 2px;
+    margin: 2px;
+}
+.pic9
+{
+    padding: 2px;
+    margin: 2px;
+}
+.pic10
+{
+    padding: 2px;
+    margin: 2px;
+}
+.pic11
+{
+    padding: 2px;
+    margin: 2px;
+}
+.pic12
+{
+    padding: 2px;
+    margin: 2px;
+}
+.pic13
+{
+    padding: 2px;
+    margin: 2px;
+}
+.pic14
+{
+    padding: 2px;
+    margin: 2px;
+}
+.pic15
+{
+    padding: 2px;
+    margin: 2px;
+}
+.rubrik1pop
+{
+font-family: 'didot';
+letter-spacing: 10px;
+text-shadow: 1px 1px gray;
+position: relative;
+left: 38vh;
+top: 10vh;
+}
+.rubrik2pop2
+{
+font-family: 'didot';
+letter-spacing: 10px;
+text-shadow: 1px 1px gray;
+position: relative;
+left: 40vh;
+top: 10vh;
+bottom: 10vh;
+}
+.rubrik3pop3
+{
+font-family: 'didot';
+letter-spacing: 10px;
+text-shadow: 1px 1px gray;
+position: relative;
+left: 58vh;
+top: 10vh;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
+/* HÄR JOBBAR FANNY NU css slut  */
