@@ -415,6 +415,7 @@ från sidorna välja_biljetter och välja_mat*/
 {
 position: relative;
 background-image: url(filer/bilder/startsida-bio1.jpg);
+background-size:cover;
 height: 100vh;
 overflow: hidden;
 }
@@ -426,10 +427,8 @@ overflow: hidden;
 .fanny-box2
 {
 position: relative;
-}
-.fanny-box2
-{
 background-image: url(filer/bilder/startsida-bistro1.jpg);
+background-size:cover;
 height: 100vh;
 overflow: hidden;
 }
@@ -450,14 +449,7 @@ overflow: hidden;
     position: relative;
     top: 40vh;
 }
-.fanny-loggabio
-{
-position: relative;
-}
-.fanny-loggabistro
-{
- position: relative;
-}
+
 .fanny-slide
 {
 height: 400px;
