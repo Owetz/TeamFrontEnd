@@ -1,0 +1,1613 @@
+/* Uppgift 1 */
+
+/* p
+{
+width: 30%;
+text-align: left;
+}
+p:before 
+{
+content: "Denna text är placerad över texten";
+color: red;
+font-size: 25px;
+
+}
+p:after
+{
+content: "Denna text är placerad under texten";
+color: yellow;
+font-size: 25px;
+} */
+
+/* UPPGIFT 2 */
+
+/* p:before
+{
+content: '"';
+}
+p:after
+{
+content: '"';
+} */
+
+/* UPPGIFT 3 */
+
+/* p:before
+{
+    content: "\2709";
+    font-size: 25px;
+    position: relative;
+    top: 4px; left: -2px;
+} */
+/* 
+
+/* UPPGIFT 9 */
+/* 
+h1
+{
+    background-color: orange;
+    height: 70px;
+    text-align: center;
+    padding: 10px;
+    position: relative; 
+    left: 0px; 
+    top: 22px;
+}
+article
+{
+    background-color: yellow;
+    height: 70px;
+
+}
+article:last-child
+{
+    background-color:aqua;
+    height: 70px;
+    padding: 10px;
+}
+section
+{
+    float: left;
+    margin: 10px;
+    padding: 10px;
+}
+main
+{
+    width: 50%;
+    padding: 5px;
+    border: 0;
+    text-align: center;
+}
+a:link 
+{
+    color: blue;
+    text-decoration: underline;
+}
+a:visited
+{
+    color: white;
+    text-decoration: underline;
+}
+a:hover 
+{
+    color: red;
+    text-decoration: none;
+} */
+/* 
+DEL 7 uppgift 4 - före och efter med font awesome ikon */
+
+/* p
+{
+    color: red;
+    font-size: 20px;
+}
+p::before
+{
+content: "\f121";
+color: purple;
+position: relative;
+font-size: 20px;
+}
+p::after
+{
+content: "\f121";
+color: purple;
+position: relative;
+font-size: 20px;
+}
+
+Uppgift 4 Del 2 - This is awesome */
+
+/* i
+{
+    color: aqua;
+} */
+
+/* Uppgift 4 Del 3 - Let's spin! */
+
+/* Uppgift 5 Del 1 - Först och Sist */
+
+/* ul
+{
+    font-size: 20px;
+}
+ul li:first-child
+{
+    color: red;
+}
+ul li:last-child
+{
+    color:green;
+} */
+
+/* Uppgift 5 Del 1- Först och Sist */
+
+/* ul
+{
+    font-size: 20px;
+}
+ul li:nth-child(4)
+{
+    color: red;
+} */
+
+/* Uppgift 5 Del 3 - udda och jämnt */
+/* 
+ul
+{
+    border: 2px; 
+    border-style: solid;
+    width: 25%;
+    font-size: 40px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.html
+{
+    background-color: gray;
+}
+.css
+{
+    background-color: white;
+}
+.js
+{
+    background-color: gray;
+}
+.angular
+{
+    background-color: white;
+}
+.react
+{
+    background-color: gray;
+}
+.mvc
+{
+    background-color: white;
+} */
+
+/* Uppgift 6 - lager på lager */
+
+/* .lager1
+{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: auto;
+    background-color: beige;
+    width: 300px;
+    height: 300px;
+    opacity: 0.5;
+}
+.lager2
+{
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    z-index: 1;
+    background-color: magenta;
+    width: 300px;
+    height: 300px;
+    opacity: 0.5;
+}
+.lager3
+{
+    position: absolute;
+    left: 60px;
+    top: 60px;
+    z-index: 2;
+    background-color: yellow;
+    width: 300px;
+    height: 300px;
+    opacity: 0.5;
+}
+.lager4
+{
+    position: absolute;
+    left: 90px;
+    top: 90px;
+    z-index: 3;
+    background-color: green;
+    width: 300px;
+    height: 300px;
+    opacity: 0.5;
+} */
+
+/* Uppgift 7 - rundningar */
+/* 
+.box1
+{
+    box-sizing: border-box;
+    width: 300px;
+    height: 300px;
+    background-color: yellow;
+    border: 3px solid green;
+    border-top-right-radius: 300px;
+    border-top-left-radius: 300px;
+    border-bottom-right-radius: 300px;
+    border-bottom-left-radius: 300px;
+} */
+/* 
+Uppgift 8 del 1 - center */
+
+/* .box1
+{
+    border: solid red 3px;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 50%;
+} */
+
+/* Uppgift 8 del 2 - centrera box vertikalt och horisontalt */
+
+/* INTE LÖST */
+
+/* Uppgift 9 - Flexbox */
+
+/* .flex-container
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.div1
+{
+    width: 33.33%;
+    height: 100px;
+    text-align: center;
+    background-color: grey;
+    border: solid 50px pink;
+    font-size: 30px;
+}
+.div2
+{
+    width: 33.33%;
+    height: 100px;
+    text-align: center;
+    background-color: grey;
+    border: solid 50px pink;
+    font-size: 30px;
+}
+.div3
+{
+    width: 33.33%;
+    height: 100px;
+    text-align: center;
+    background-color: grey;
+    border: solid 50px pink;
+    font-size: 30px;
+} */
+
+/* Uppgift 10 - transform & animation */
+
+/* .box
+{
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    /* -webkit-animation-duration: 5s; Safari 4.0 - 8.0
+    animation-name: example;
+    animation-duration: 5s;
+    transform: rotate(45deg);
+    padding: 40px;
+    margin: 50px;
+}
+@keyframes example 
+{
+    0%   {background-color: pink;}
+    25%  {background-color: aquamarine;}
+    50%  {background-color: plum;}
+    100% {background-color: beige;}
+}
+div:hover 
+{
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+} */ 
+
+/* HTML & CSS Träning 1
+
+1. Banner puffar */
+/* *
+{
+    box-sizing: border-box;
+}
+.bilder
+{
+    float: left;
+    width: 33%;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.row:after 
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+.header
+{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+} */
+
+/* 2. Puff med en länk i avvikande färg */
+/* * 
+{
+    box-sizing: border-box;
+}
+
+body 
+{
+  margin: 0;
+}
+.column 
+{
+    float: left;
+    padding: 10px;
+}
+.footer
+{
+    float: left;
+    padding: 10px;
+}
+.column.side {
+    width: 25%;
+}
+.column.middle 
+{
+    float: left;
+    width: 60%;
+    padding: 10%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.footer
+{
+    float: left;
+    width: 50%;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.row:after 
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+/* @media screen and (max-width: 600px) {
+    .column.side, .column.middle {
+        width: 100%;
+    }
+} */ 
+
+/* 3. Nyhetspuff */
+/* .header
+{
+    text-align: center;
+    overflow: hidden;
+}
+h1
+{
+    text-align: center;
+}
+h2
+{
+    text-align: center;
+    color: red;
+}
+p
+{
+    text-align: center;
+}
+.ikoner
+{
+    text-align: center;
+} */
+
+/* 4. Footer puffar */
+
+/* .grid-container
+{
+    display: grid;
+    height: 150px;
+    width: 900px;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    background-color: beige;
+    padding: 10px;
+}
+.nr1
+{
+    font-size: 10px;
+}
+.nr2
+{
+    font-size: 10px;
+}
+.japp1
+{
+    position: relative;
+    left: 5px;
+    top: 14px;
+	border-radius: 50px 50px 50px 50px;
+    overflow: hidden;
+}
+.japp2
+{
+    position: relative;
+    left: 5px;
+    top: 14px;
+	border-radius: 50px 50px 50px 50px;
+    overflow: hidden;
+} */
+
+/* 5. Dropdown list  */
+/* 
+.grid-container
+{
+    background-color: black;
+    border: solid 10px whitesmoke;
+    border-bottom: solid 80px whitesmoke;
+    width: 800px;
+    height: 270px;
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: whitesmoke;
+    text-align: center;
+    box-sizing: content-box;
+}
+.beskrivning
+{
+    text-align: center;
+    font-size: 10px;
+    color: whitesmoke;
+}
+.kontorbox
+{
+    width: 500px;
+    margin: auto;
+    padding: 10px;
+    overflow: hidden;
+}
+.kontor
+{
+    font-size: 10px;
+    padding: 10px;
+    float: left;
+    width: 50%;
+}
+.form
+{
+   font-size: 10px;
+   padding: 10px;
+   float: left;
+}
+.info
+{
+    margin: auto;
+    width: 500px;
+}
+.tele
+{
+    border: solid 1px whitesmoke;
+    font-size: 15px;
+    padding: 10px;
+    margin: 20px;
+    float: left;
+}
+.mail
+{
+    border: solid 1px whitesmoke;
+    font-size: 15px;
+    padding: 10px;
+    margin: 20px;
+    float: left;
+}
+.plats
+{
+    border: solid 1px whitesmoke;
+    font-size: 15px;
+    padding: 10px;
+    margin: 20px;
+    float: left;
+}
+.media
+{
+   color: black;
+   margin: auto;
+   margin-left: 370px;
+   margin-top: 120px;
+   width: 400px;
+   height: 50px;
+   align-content: center;
+}
+.copy
+{
+   font-size: 5px;
+   color: black;
+   margin: auto;
+   width: 100px;
+} */
+
+/* HTML & CSS Träning 2 */
+
+/* 1. Text ovanpå bild  */
+
+/* .bakgrund
+{
+  position: relative;
+  height: 382px;
+  width: 400px;
+  background-image: url("gris2.jpg")
+}
+h1
+{
+ position: absolute;
+ top: 310px;
+ left: 100px;
+ text-align: center;
+ color: white;
+} */
+
+/* 2. Puffar i en Grid Layout */
+/* 
+.grid-container 
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    width: 400px;
+    height: 200px;
+}
+.bild1 
+{
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 5px solid grey;
+    border-left: 10px solid grey;
+    border-top: 10px solid grey;
+    padding: 20px;
+    box-shadow: 10px 10px 5px grey;
+}
+.bild2
+{
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 5px solid grey;
+    border-top: 10px solid grey;
+    padding: 20px;
+    box-shadow: 10px 10px 5px grey;
+}
+.bild3 
+{
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 5px solid grey;
+    border-right: 10px solid grey;
+    border-top: 10px solid grey;
+    padding: 20px;
+    box-shadow: 10px 10px 5px grey;
+}
+.bild4
+{
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 5px solid grey;
+    border-left: 10px solid grey;
+    border-bottom: 10px solid grey;
+    padding: 20px;
+    box-shadow: 10px 10px 5px grey;
+}
+.bild5 
+{
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 5px solid grey;
+    border-bottom: 10px solid grey;
+    padding: 20px;
+    box-shadow: 10px 10px 5px grey;
+}
+.bild6 
+{
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 5px solid grey;
+    border-right: 10px solid grey;
+    border-bottom: 10px solid grey;
+    padding: 20px;
+    box-shadow: 10px 10px 5px grey;
+}
+.text1
+{
+font-family: sans-serif;
+color: darkgrey;
+text-align: left;
+padding: 5px;
+}
+.text2
+{
+font-family: sans-serif;
+color: darkgrey;
+text-align: left;
+padding: 5px;
+}
+.text3
+{
+font-family: sans-serif;
+color: darkgrey;
+text-align: left;
+padding: 5px;
+}
+.text4
+{
+font-family: sans-serif;
+color: darkgrey;
+text-align: left;
+padding: 5px;
+}
+.text5
+{
+font-family: sans-serif;
+color: darkgrey;
+text-align: left;
+padding: 5px;
+}
+.text6
+{
+font-family: sans-serif;
+color: darkgrey;
+text-align: left;
+padding: 5px;
+}
+.p1
+{
+position: relative;
+font-size: 13px;
+}
+.p2
+{
+position: relative;
+font-size: 13px;
+}
+.p3
+{
+position: relative;
+font-size: 13px;
+}
+.p4
+{
+position: relative;
+font-size: 13px;
+}
+.p5
+{
+position: relative;
+font-size: 13px;
+}
+.p6
+{
+position: relative;
+font-size: 13px;
+}
+.ikon1
+{
+position: absolute;
+left: 218px;
+top: 185px;
+color: aqua;
+}
+.ikon2
+{
+position: absolute;
+left: 471px;
+top: 185px;
+color: aqua;
+}
+.ikon3
+{
+position: absolute;
+left: 723px;
+top: 185px;
+color: aqua;
+}
+.ikon4
+{
+position: absolute;
+left: 218px;
+top: 421px;
+color: aqua;
+}
+.ikon5
+{
+position: absolute;
+left: 471px;
+top: 421px;
+color: aqua;
+}
+.ikon6
+{
+position: absolute;
+left: 723px;
+top: 421px;
+color: aqua;
+} */
+
+/* 3. Bygg en sida med layout enligt bilden */
+
+/* .box1
+{
+background-color: pink;
+width: 800px;
+height: 400px;
+border: solid 1px;
+box-shadow: 2px 2px grey;
+padding: 10px;
+margin: 20px;
+position: relative;
+}
+.mywebsite
+{
+color: black;
+font-family: sans-serif;
+font-size: 30px;
+}
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 20px;
+    width: 720px;
+}
+.li1
+{
+    float: right;
+    padding: 10px;
+    margin: 10px;
+    border: solid 2px wheat;
+    box-shadow: 0px 0px;
+    background-color: orange;
+    font-family: sans-serif;
+}
+.li2
+{
+    float: right;
+    padding: 10px;
+    margin: 10px;
+    border: solid 2px wheat;
+    box-shadow: 0px 0px;
+    background-color: orange;
+    font-family: sans-serif;
+}
+.li3
+{
+    float: right;
+    padding: 10px;
+    margin: 10px;
+    border: solid 2px wheat;
+    box-shadow: 0px 0px;
+    color: white;
+    background-color: orange;
+    font-family: sans-serif;
+}
+.box2
+{
+background-color: antiquewhite;
+width: 655px;
+height: 200px;
+border: solid 1px;
+position: absolute;
+top: 110px;
+left: 68px;
+padding: 10px;
+}
+.hometext
+{
+color: orange;
+}
+.text
+{
+color: black;
+font-size: 14px;
+}
+.linje
+{
+color: black;
+margin-top: 310px;
+}
+.madeby
+{
+    font-size: 9px;
+    position: absolute;
+    top: 340px;
+    left: 600px;
+} */
+/* 
+4. Komplett site  */
+/* 
+.background
+{
+    background-attachment: fixed;
+    position: relative;
+}
+.video
+{
+
+}
+.boxright
+{
+   
+}
+.box1
+{
+position: absolute;
+top: 100px;
+left: 500px;
+border: solid 1px whitesmoke;
+}
+.box2
+{
+
+}
+.box3
+{
+
+} */
+
+/* WEBSITE FANNY med video ranchen
+* {
+    box-sizing: border-box;
+}
+body
+{
+margin: 0;
+font-size: 1rem;
+line-height: 1.5;
+color: red;
+overflow-x: hidden;
+}
+.v-header
+{
+height: 100vh;
+display: flex;
+align-items: center;
+color: white;
+}
+.container
+{
+    max-width: 960px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: auto;
+    text-align: center;
+}
+.fullscreen-video-wrap
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    widows: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.fullscreen-video-wrap video{
+    min-width: 100%;
+    min-height: 100%;
+}
+.header-overlay
+{
+    height: 100vh;
+    width: 100vvw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #225470;
+    z-index: 1;
+    opacity: 0.85;
+}
+.header-content
+{
+    z-index: 2;
+}
+.header-content h1
+{
+    font-size: 50px;
+    margin-bottom: 0;
+}
+.header-content p
+{
+    font-size: 1.5rem;
+    display: block;
+    padding-bottom: 2rem;
+}
+.btn
+{
+    background: #34b3a0;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+    text-decoration: none;
+}
+.section
+{
+    padding: 20px 0;
+}
+.section-b
+{
+    background: #333;
+    color: #fff;
+}
+@media(max-width:960px){
+.container{
+    padding-right: 3rem;
+    padding-left: 3rem;
+  } 
+}
+.fanny-menu
+{
+position: fixed;
+z-index: 1;
+width: 100%;
+top: 0;
+left: 0;
+overflow: overlay;
+}
+.header-content
+{
+    font-family: 
+} */
+
+/* FANNY WEBSITE PROJECT */
+
+/* SLIDER FRONTEND BIO */
+/* 
+.fanny-hela-slide-box
+{
+    width: 100%;
+}
+.roww
+{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: -135px;
+}
+.pic1
+{
+padding: 2px;
+margin: 2px;
+}
+.pic2
+{
+padding: 2px;
+margin: 2px;
+}
+.pic3
+{
+    padding: 2px;
+    margin: 2px;
+}
+.pic4
+{
+    padding: 2px;
+    margin: 2px;
+}
+.pic5
+{
+    padding: 2px;
+    margin: 2px;
+}
+.pic6
+{
+    padding: 2px;
+    margin: 2px;
+}
+.pic7
+{
+    padding: 2px;
+    margin: 2px;
+}
+.pic8
+{
+    padding: 2px;
+    margin: 2px;
+}
+.pic9
+{
+    padding: 2px;
+    margin: 2px;
+}
+.pic10
+{
+    padding: 2px;
+    margin: 2px;
+}
+.pic11
+{
+    padding: 2px;
+    margin: 2px;
+}
+.pic12
+{
+    padding: 2px;
+    margin: 2px;
+}
+.pic13
+{
+    padding: 2px;
+    margin: 2px;
+}
+.pic14
+{
+    padding: 2px;
+    margin: 2px;
+}
+.pic15
+{
+    padding: 2px;
+    margin: 2px;
+}
+.rubrik1
+{
+text-align: center;
+}
+.rubrik2
+{
+text-align: center;
+}
+.rubrik3
+{
+text-align: center;
+} */
+
+/* HEMSIDA PRESENTKORT */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    position:relative;
+}
+
+/* Nav */
+.navbar a {
+    color: #e0e0e0;
+    font-weight: bold;
+    position: relative;
+    z-index: 10;
+}
+
+.navbar a:hover {
+    background:#00000073;
+    border-radius:.25rem;
+}
+
+.nav-item {
+    margin: 0 10px;
+}
+
+.top-nav-container {
+    height: 80px;
+}
+.show {
+    background:#00000073;
+    border-radius:.25rem;
+}
+.dropdown-menu {
+    background:#00000073;
+}
+
+.dropdown-item:hover {
+    color: #e0e0e0;
+}
+
+/* Header */
+.head-hero{
+    margin-top: -80px;
+    height: 400px;
+    background: url(bakgrund.jpg);
+    background-attachment: fixed;
+    z-index: -1;
+}
+
+.hero-heading {
+    position: absolute;
+    bottom: 140px;
+    color: white;
+}
+
+.mapouter {
+    text-align: right;
+    height: 400px;
+    width: 100%;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+/* Main */
+.row .p-3 p{
+    margin: 0;
+}
+section.row{
+    padding: 10px 0; 
+}
+
+.align-left{
+    text-align: left;
+}
+
+.align-center{
+    text-align: center;
+}
+
+.align-right {
+    text-align: right;
+}
+
+main.container{
+    padding-top: 3rem;
+    min-height: 400px;
+    padding-bottom:5rem;
+    height: 700px;;
+}
+
+main.container-fluid {
+    padding-top: 3rem;
+    min-height: 400px;
+    padding-bottom:5rem;
+}
+
+ul.frontend-list {
+    text-align: center;
+}
+
+ul.frontend-list li {
+    width: 30%;
+    margin: auto;
+    text-align: left;
+}
+
+/* Footer */
+footer {
+    color:white;
+    height:80px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #77727257;
+    text-align: center;
+}
+
+footer .row {
+    background:black;
+}
+
+footer .position-absolute {
+    bottom:0;
+}
+
+footer .col-sm-12 {
+    text-align:left;
+}
+
+dl.row {
+    margin:0 -15px;
+    padding: 20px 0;
+}
+
+dl.row a {
+    color:white;
+}
+
+dl.row a:hover {
+    color:#d0d0d0;
+}
+
+dl.row dt a {
+    text-decoration:underline;
+    font-size: 20px;
+}
+
+dl.row dd a {
+    text-decoration:none;
+}
+
+.social-list {
+    padding:0;
+}
+
+.social-item {
+    font-size:20px;
+    margin-left:5px;
+}
+
+.social-item a {
+    text-decoration:none;
+    color: white;
+}
+
+.social-item a:hover {
+    transition:0.5s ease-in-out;
+    color:gray;
+}
+
+i.fab {
+    font-size: 30px;
+}
+
+.contact-link {
+    text-decoration: none;
+    color:#212529;
+}
+
+.contact-link:hover {
+    text-decoration:none;
+    color: #212529;
+  }
+
+form.col-sm-6.border.rounded.p-4 {
+    margin: 2rem;
+    background: #e2e2e259;
+}
+
+.form-div {
+    background: url(filer/bilder/meny-kontaktaoss.jpg);
+    background-size: cover;
+    background-position: bottom center;
+    background-attachment: fixed;
+}
+
+/* Newsletter */
+.fanny-box
+{
+    text-align: center;
+    border: 1px solid black;
+    width: 100%;
+    background:#a7a7a738;
+}
+
+.fanny-box label {
+    position:relative;
+    margin:20px;
+}
+
+.fanny-h1
+{
+font-style: inherit;
+}
+.fanny-p-first
+{
+    color:white;
+    font-size: 15px;
+}
+.fanny-input
+{
+    line-height: inherit;
+    width: 350px;
+}
+.fanny-button
+{
+    color:white;
+    line-height: inherit;
+    font-size: 10px;
+    position: absolute;
+    top: 82px;
+    border-color:white;
+}
+.fanny-p-last
+{
+    color:white;
+    font-size: 10px;
+    margin: 10px;
+}
+/* Fanny index.html */
+
+.fanny-box-header
+{
+    margin-top: -80px;
+    z-index: -10;
+}
+.fanny-box1
+{
+position: relative;
+background-image: url(filer/bilder/startsida-bio1.jpg);
+height: 100vh;
+overflow: hidden;
+}
+.fanny-box1:hover
+{
+    background-image: url(filer/bilder/startsida-bio2.jpg);
+    transition: 1s ease-in-out;
+}
+.fanny-box2
+{
+position: relative;
+}
+.fanny-box2
+{
+background-image: url(filer/bilder/startsida-bistro1.jpg);
+height: 100vh;
+overflow: hidden;
+}
+.fanny-box2:hover
+{
+    background-image: url(filer/bilder/startsida-bistro2.jpg);
+    transition: 1s ease-in-out;
+}
+.fanny-loggabio
+{
+    text-align: center;
+    position: relative;
+    top: 40vh;
+}
+.fanny-loggabistro
+{
+    text-align:center;
+    position: relative;
+    top: 40vh;
+}
+.fanny-loggabio
+{
+position: relative;
+}
+.fanny-loggabistro
+{
+ position: relative;
+}
+.fanny-slide
+{
+height: 400px;
+background-color: white;
+overflow: hidden;
+}
+.log1
+{
+position: absolute;
+left: 200px;
+top: 390px;
+font-family: sans-serif;
+text-shadow: 2px 2px;
+}
+.log2
+{
+position: absolute;
+left: 200px;
+top: 390px;
+font-family: sans-serif;
+text-shadow: 2px 2px;
+}
+.fanny-slide2
+{
+height: 400px;
+background-color: white;
+overflow: hidden;
+position: fixed;
+}
+.film-kategori-1
+{
+    position: absolute;
+    top: 1167px;
+    left: 360px;
+    z-index: 1;
+    text-shadow: 2px 2px white;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-family: 'didot';
+    font-size: 60px;
+    letter-spacing: 20px;
+}
+.rubrik-text-info
+{
+text-align: center;
+padding: 20px;
+margin: 20px;
+font-family: 'didot';
+}
+.info-liten-text
+{
+text-align: center;
+padding: 20px;
+margin: 1px;
+}
+.div-fanny-button
+{
+   margin: 0 auto;
+}
+
+.rad-under-rubrik
+{
+width: 500px;
+height: 1px;
+margin-top: 0rem;
+}
+/* HÄR JOGGAR FANNY NU scss start  */
+
+
+.fanny-hela-slide-box
+{
+    width: 100%;
+    position: relative;
+}
+.roww
+{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: -135px;
+    margin-bottom: 80px;
+}
+.pic1
+{
+padding: 2px;
+margin: 2px;
+}
+.pic2
+{
+padding: 2px;
+margin: 2px;
+}
+.pic3
+{
+    padding: 2px;
+    margin: 2px;
+}
+.pic4
+{
+    padding: 2px;
+    margin: 2px;
+}
+.pic5
+{
+    padding: 2px;
+    margin: 2px;
+}
+.pic6
+{
+    padding: 2px;
+    margin: 2px;
+}
+.pic7
+{
+    padding: 2px;
+    margin: 2px;
+}
+.pic8
+{
+    padding: 2px;
+    margin: 2px;
+}
+.pic9
+{
+    padding: 2px;
+    margin: 2px;
+}
+.pic10
+{
+    padding: 2px;
+    margin: 2px;
+}
+.pic11
+{
+    padding: 2px;
+    margin: 2px;
+}
+.pic12
+{
+    padding: 2px;
+    margin: 2px;
+}
+.pic13
+{
+    padding: 2px;
+    margin: 2px;
+}
+.pic14
+{
+    padding: 2px;
+    margin: 2px;
+}
+.pic15
+{
+    padding: 2px;
+    margin: 2px;
+}
+.rubrik1pop
+{
+font-family: 'didot';
+letter-spacing: 10px;
+text-shadow: 1px 1px gray;
+position: relative;
+left: 38vh;
+top: 10vh;
+}
+.rubrik2pop2
+{
+font-family: 'didot';
+letter-spacing: 10px;
+text-shadow: 1px 1px gray;
+position: relative;
+left: 40vh;
+top: 10vh;
+bottom: 10vh;
+}
+.rubrik3pop3
+{
+font-family: 'didot';
+letter-spacing: 10px;
+text-shadow: 1px 1px gray;
+position: relative;
+left: 58vh;
+top: 10vh;
+}
+
+
+/* HÄR JOBBAR FANNY NU css slut  */
+
+.box-presentkort-1
+{
+float: left;
+width: 50%;
+text-align: left;
+color: #212529;
+}
+
+.box-presentkort-2
+{
+float: left;
+width: 50%;
+text-align: left;
+color: #212529;
+}
+.rubrik-presentkort
+{
+    font-family: 'didot';
+}
+.kupong-1
+{
+padding: 10px;
+}
+.kupong-2
+{
+    padding: 10px;
+}
+.kupong-3
+{
+    padding: 10px;
+}
+.knapp-1
+{
+
+}
+.knapp-2
+{
+
+}
+.knapp-3
+{
+  
+}

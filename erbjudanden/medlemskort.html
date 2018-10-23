@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="sv">
 
@@ -13,7 +12,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
     <link rel="stylesheet" href="../main.css">
-
+    <link rel="icon" type="image/png" href="https://avatars2.githubusercontent.com/u/43636257?s=88&v=4">
     <title>Medlemskort | Frontend</title>
 
     <!-- Style för header-bakgrund -->
@@ -34,60 +33,64 @@
     <!-- Nav -->
     <div class="container">
         <div class="row justify-content-center">
-            <nav class="navbar top-nav-container">
-                <!-- UL -->
-                <ul class="nav flex-column flex-md-row justify-content-end">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Biljetter
-                            <span class="caret"></span></a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Köp och boka</a>
-                            <a class="dropdown-item" href="#">Biljettpris och info</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-expanded="false">Filmer
-                            <span class="caret"></span></a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Aktuella filmer</a>
-                            <a class="dropdown-item" href="#">Kommande fillmer</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-expanded="false">Erbjudanden
-                            <span class="caret"></span></a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Presentkort</a>
-                            <a class="dropdown-item" href="#">Medlemskort</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-expanded="false">Frontend
-                            Bistro
-                            <span class="caret"></span></a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Meny</a>
-                            <a class="dropdown-item" href="#">Boka bord</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-expanded="false">Kontakta
-                            Oss
-                            <span class="caret"></span></a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Hitta oss</a>
-                            <a class="dropdown-item" href="#">Öppettider</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-expanded="false">Om
-                            Oss
-                            <span class="caret"></span></a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Biograf</a>
-                        </div>
-                    </li>
-                </ul>
+            <nav class="navbar navbar-expand-lg top-nav-container navbar-light">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle"
+                    aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarToggle">
+                    <!-- UL -->
+                    <ul class="nav flex-column flex-md-row justify-content-end">
+                        <a class="navbar-brand" href="../index.html" style="text-align: center;"><img src="../filer/bilder/logga.png"
+                                style="width: 120px;"></a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown">Biljetter
+                                <span class="caret"></span></a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="../kopa_och_boka.html">Köp och boka</a>
+                                <a class="dropdown-item" href="../priser.html">Biljettpris och info</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Filmer
+                                <span class="caret"></span></a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="../filmer/aktuella.html">Aktuella filmer</a>
+                                <a class="dropdown-item" href="../filmer/kommande.html">Kommande filmer</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Erbjudanden
+                                <span class="caret"></span></a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="presentkort.html">Presentkort</a>
+                                <a class="dropdown-item" href="medlemskort.html">Medlemskort</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Frontend
+                                Bistro<span class="caret"></span></a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="../bistro/bistro.html">Meny</a>
+                                <a class="dropdown-item" href="../bistro/boka-bord.html">Boka bord</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Kontakta
+                                Oss <span class="caret"></span></a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="../kontakt/kontakta-oss.html">Kontakt & Öppettider</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Om
+                                Oss<span class="caret"></span></a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="../om-oss/biograf.html">Biograf</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
             </nav>
         </div>
     </div>
@@ -114,43 +117,48 @@
                     <div class="card-body">
                         <section class="row">
                             <div class="col-sm-12 col-md-4">
-                                <div class="card text-center border-info">
+                                <div class="card text-center border">
                                     <div class="card-body">
-                                        <h5 class="card-title text-info">Medlemskort 2018 *</h5>
-                                        <a href="#" class="btn btn-info">600 SEK</a>
+                                        <h5 class="card-title">Medlemskort 2018 *</h5>
+                                        <a href="#" class="btn btn-basic link_brownButton">600 SEK</a>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-sm-12 col-md-4">
-                                <div class="card text-center border-info">
+                                <div class="card text-center border">
                                     <div class="card-body">
-                                        <h5 class="card-title text-info">Medlemskort 2018, Reducerat **</h5>
-                                        <a href="#" class="btn btn-info">160 SEK</a>
+                                        <h5 class="card-title">Medlemskort 2018, Reducerat **</h5>
+                                        <a href="#" class="btn btn-basic link_brownButton">160 SEK</a>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-sm-12 col-md-4">
-                                <div class="card text-center border-info">
+                                <div class="card text-center border">
                                     <div class="card-body">
-                                        <h5 class="card-title text-info">Bronskort 2018</h5>
-                                        <a href="#" class="btn btn-info">1700 SEK</a>
+                                        <h5 class="card-title">Bronskort 2018</h5>
+                                        <a href="#" class="btn btn-basic link_brownButton">1700 SEK</a>
                                     </div>
                                 </div>
                             </div>
                         </section>
                         <hr>
-                        <section class="row justify-content-center text-info">
+                        <section class="row justify-content-center">
                             <h5>Köpvillkor</h5>
-                            <p>På <strong>FrontEnd</strong> köper du din biljett via nätet eller i kassan.<br> 
-                            På nätet kan du samtidigt förbeställa våra salongsmatpaket och matpaketet väntar sedan på din plats när du anländer. <br>
-                            Dryck köper du på plats. Köper du biljetter via nätet får du en biljett skickad till din angivna mailadress som
-                            du sedan kan visa upp direkt i din mobil eller skriva ut hemma. Vi har fri placering av sittplats i biosalongen.
+                            <p>På <strong>FrontEnd</strong> köper du din biljett via nätet eller i kassan.<br>
+                                På nätet kan du samtidigt förbeställa våra salongsmatpaket och matpaketet väntar sedan
+                                på din plats när du anländer. <br>
+                                Dryck köper du på plats. Köper du biljetter via nätet får du en biljett skickad till
+                                din angivna mailadress som
+                                du sedan kan visa upp direkt i din mobil eller skriva ut hemma. Vi har fri placering av
+                                sittplats i biosalongen.
                             </p>
                         </section>
                     </div>
                     <div class="card-footer text-muted">
-                        <p>* Medlemskortet kostar 600kr och är laddat med 4 biobiljetter till kommande filmer som kan nyttjas i valfri salong och valfri fåtölj till valfri film (värde upp till 210kr per biljett, gäller dock ej specialarrangemang som opera eller teater). <br>
-                        Medlemskortet ger också 5% rabatt på inköp i biograf och restaurang på allt utom alkohol.</p>
+                        <p>* Medlemskortet kostar 600kr och är laddat med 4 biobiljetter till kommande filmer som kan
+                            nyttjas i valfri salong och valfri fåtölj till valfri film (värde upp till 210kr per
+                            biljett, gäller dock ej specialarrangemang som opera eller teater). <br>
+                            Medlemskortet ger också 5% rabatt på inköp i biograf och restaurang på allt utom alkohol.</p>
                         <hr>
                         <p>** Gäller pensionärer, studenter och du som är under 26 år.</p>
                     </div>
@@ -176,37 +184,36 @@
         <dl class="row">
             <div class="col-sm-12 col-md-2">
                 <dt class="col-sm-12"><a href="#">Biljetter</a></dt>
-                <dd class="col-sm-12"><a href="#">Köp och boka</a></dd>
-                <dd class="col-sm-12"><a href="#">Biljettpris och info</a></dd>
+                <dd class="col-sm-12"><a href="../biljetter/kopa_och_boka.html">Köp och boka</a></dd>
+                <dd class="col-sm-12"><a href="../biljetter/priser.html">Biljettpris och info</a></dd>
             </div>
 
             <div class="col-sm-12 col-md-2">
                 <dt class="col-sm-12"><a href="#">Filmer</a></dt>
-                <dd class="col-sm-12"><a href="#">Aktuella filmer</a></dd>
-                <dd class="col-sm-12"><a href="#">Kommande filmer</a></dd>
+                <dd class="col-sm-12"><a href="../filmer/aktuella.html">Aktuella filmer</a></dd>
+                <dd class="col-sm-12"><a href="../filmer/kommande.html">Kommande filmer</a></dd>
             </div>
 
             <div class="col-sm-12 col-md-2">
                 <dt class="col-sm-12"><a href="#">Erbjudanden</a></dt>
-                <dd class="col-sm-12"><a href="#">Presentkort</a></dd>
-                <dd class="col-sm-12"><a href="#">Medlemskort</a></dd>
+                <dd class="col-sm-12"><a href="presentkort.html">Presentkort</a></dd>
+                <dd class="col-sm-12"><a href="medlemskort.html">Medlemskort</a></dd>
             </div>
 
             <div class="col-sm-12 col-md-2">
                 <dt class="col-sm-12"><a href="#">Frontend Bistro</a></dt>
-                <dd class="col-sm-12"><a href="#">Meny</a></dd>
-                <dd class="col-sm-12"><a href="#">Boka bord</a></dd>
+                <dd class="col-sm-12"><a href="../bistro/bistro.html">Meny</a></dd>
+                <dd class="col-sm-12"><a href="../bistro/boka-bord.html">Boka bord</a></dd>
             </div>
 
             <div class="col-sm-12 col-md-2">
                 <dt class="col-sm-12"><a href="#">Kontakta oss</a></dt>
-                <dd class="col-sm-12"><a href="#">Hitta oss</a></dd>
-                <dd class="col-sm-12"><a href="#">Öppettider</a></dd>
+                <dd class="col-sm-12"><a href="../kontakt/kontakta-oss.html">Kontakt & Öppettider</a></dd>
             </div>
 
             <div class="col-sm-12 col-md-2">
                 <dt class="col-sm-12"><a href="#">Om oss</a></dt>
-                <dd class="col-sm-12"><a href="#">Biograf</a></dd>
+                <dd class="col-sm-12"><a href="../om-oss/biograf.html">Biograf</a></dd>
             </div>
         </dl>
         <div class="row justify-content-center">
