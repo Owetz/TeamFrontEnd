@@ -1,0 +1,494 @@
+<!doctype html>
+<html lang="sv">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="../main.css">
+
+    <title>Aktuella filmer | Frontend</title>
+
+    <!-- Style för header-bakgrund -->
+    <style>
+        .head-hero {
+            margin-top: -80px;
+            height: 400px;
+            background: url(../filer/bilder/meny-filmer.jpg);
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+            z-index: -1;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Nav -->
+    <div class="container">
+        <div class="row justify-content-center">
+            <nav class="navbar navbar-expand-lg top-nav-container navbar-light">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle"
+                    aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarToggle">
+                    <!-- UL -->
+                    <ul class="nav flex-column flex-md-row justify-content-end">
+                        <a class="navbar-brand" href="../index.html" style="text-align: center;"><img src="../filer/bilder/logga.png"
+                                style="width: 120px;"></a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown">Biljetter
+                                <span class="caret"></span></a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="../kopa_och_boka.html">Köp och boka</a>
+                                <a class="dropdown-item" href="../priser.html">Biljettpris och info</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Filmer
+                                <span class="caret"></span></a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="aktuella.html">Aktuella filmer</a>
+                                <a class="dropdown-item" href="kommande.html">Kommande filmer</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Erbjudanden
+                                <span class="caret"></span></a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="../erbjudanden/presentkort.html">Presentkort</a>
+                                <a class="dropdown-item" href="../erbjudanden/medlemskort.html">Medlemskort</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Frontend
+                                Bistro<span class="caret"></span></a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="../bistro.html">Meny</a>
+                                <a class="dropdown-item" href="../boka-bord.html">Boka bord</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Kontakta
+                                Oss <span class="caret"></span></a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="../kontakt/kontakta-oss.html">Kontakt & Öppettider</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Om
+                                Oss<span class="caret"></span></a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="../om-oss/biograf.html">Biograf</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- /nav -->
+
+    <!-- header -->
+    <header class="container-fluid head-hero position-relative">
+        <div class="row justify-content-center">
+            <h1 class="hero-heading">Filmer</h1>
+        </div>
+    </header>
+    <!-- header -->
+
+    <main class="container">
+        <div class="container">
+            <section class="row align-center justify-content-center">
+                <div class="col-sm-8">
+
+                    <h2 class="text-center mb-4 mt-4">Aktuella filmer</h2>
+                    <p class="text-center"><strong>Få en överblick över alla aktuella filmer som du kan boka till ditt
+                            filmevent.</strong></p>
+                </div>
+            </section>
+            <div class="card-deck">
+                <div class="card">
+                    <img class="card-img-top" src="../filer/bilder/a1.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Det händer om natten</h5>
+                        <p class="card-text"><small class="text-muted">Komedi</small></p>
+                        <p class="card-text">En svensk komedifilm om Petter och hans vänner som stöter på problem i
+                            vardagen. Petter är uppvuxen i USA och har svårt att anpassa sig till det svenska PK
+                            samhället. Vi får följa Petter och hans vänner genom det mesta under denna resa..
+                        </p>
+                        <p class="card-text"><small class="text-muted"><strong>Visas:</strong> 2018-10-25 kl. 15:00
+                            </small></p>
+                        <p class="card-text"><small class="text-muted"><strong>Visas:</strong> 2018-10-26 kl. 18:30
+                            </small></p>
+                        <p class="card-text"><small class="text-muted"><strong>Visas:</strong> 2018-10-27 kl. 18:30
+                            </small></p>
+                        <p class="card-text"><small class="text-muted"><strong>Visas:</strong> 2018-10-28 kl. 20:00</small></p>
+                        <p class="card-text"><small class="text-muted"><strong>Visas:</strong> 2018-10-29 kl. 20:00
+                            </small></p>
+                    </div>
+                    <a class="btn btn-basic link_brownButton" style="margin: 20px" href="../biljetter/kopa_och_boka.html"
+                        role="button">Boka biljett</a>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="../filer/bilder/a2.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Full Moon</h5>
+                        <p class="card-text"><small class="text-muted">Drama</small></p>
+                        <p class="card-text">Walter känner sig orolig över Shriers frånvaro, men Heidi lyckas lugna
+                            honom. Thomas möter motstånd när han försöker undersöka en ledning. Fullmåne är ett måste
+                            om du gillar drama...
+                        </p>
+                        <p class="card-text"><small class="text-muted"><strong>Visas:</strong> 2018-10-25 kl. 15:00
+                            </small></p>
+                        <p class="card-text"><small class="text-muted"><strong>Visas:</strong> 2018-10-26 kl. 17:30
+                            </small></p>
+                        <p class="card-text"><small class="text-muted"><strong>Visas:</strong> 2018-10-27 kl. 20:00
+                            </small></p>
+                        <p class="card-text"><small class="text-muted"><strong>Visas:</strong> 2018-10-28 kl. 18:30
+                            </small></p>
+                        <p class="card-text"><small class="text-muted"><strong>Visas:</strong> 2018-10-29 kl. 21:00
+                            </small></p>
+                    </div>
+                    <a class="btn btn-basic link_brownButton" style="margin: 20px" href="../biljetter/kopa_och_boka.html"
+                        role="button">Boka biljett</a>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="../filer/bilder/a3.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Besökaren</h5>
+                        <p class="card-text"><small class="text-muted">Drama</small></p>
+                        <p class="card-text">Svenskt drama när det är som bäst. I denna otroligt fina men mörka
+                            dramafilm får vi följa Ove som lever ensam i en stad där allt förändras snabbt. Hans
+                            förflutna kommer upp till ytan och det mesta försvinner..
+                        </p>
+                        <p class="card-text"><small class="text-muted"><strong>Visas:</strong> 2018-10-25 kl. 17:30
+                            </small></p>
+                        <p class="card-text"><small class="text-muted"><strong>Visas:</strong> 2018-10-26 kl. 17:30
+                            </small></p>
+                        <p class="card-text"><small class="text-muted"><strong>Visas:</strong> 2018-10-27 kl. 18:30
+                            </small></p>
+                        <p class="card-text"><small class="text-muted"><strong>Visas:</strong> 2018-10-28 kl. 21:00
+                            </small></p>
+                        <p class="card-text"><small class="text-muted"><strong>Visas:</strong> 2018-10-29 kl. 20:00
+                            </small></p>
+                    </div>
+                    <a class="btn btn-basic link_brownButton" style="margin: 20px" href="../biljetter/kopa_och_boka.html"
+                        role="button">Boka biljett</a>
+                </div>
+            </div>
+            <br><br>
+            <div class="card-deck">
+                <div class="card">
+                    <img class="card-img-top" src="../filer/bilder/a4.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Flight 3900</h5>
+                        <p class="card-text"><small class="text-muted">Biografi</small></p>
+                        <p class="card-text">Under ett flyg till Dubai händer något oväntat i luften. Vem kommer
+                            faktiskt att komma ifrån detta flyg livet i behåll? De mystiska nyheterna om planet är
+                            något som aldrig hänt tidigare. Fortsättning följer...
+                        </p>
+                        <p class="card-text"><small class="text-muted"><strong>Visas:</strong> 2018-10-25 kl. 15:00
+                            </small></p>
+                        <p class="card-text"><small class="text-muted"><strong>Visas:</strong> 2018-10-26 kl. 21:00
+                            </small></p>
+                        <p class="card-text"><small class="text-muted"><strong>Visas:</strong> 2018-10-27 kl. 17:30
+                            </small></p>
+                        <p class="card-text"><small class="text-muted"><strong>Visas:</strong> 2018-10-28 kl. 18:30
+                            </small></p>
+                        <p class="card-text"><small class="text-muted"><strong>Visas:</strong> 2018-10-29 kl. 20:00
+                            </small></p>
+                    </div>
+                    <a class="btn btn-basic link_brownButton" style="margin: 20px" href="../biljetter/kopa_och_boka.html"
+                        role="button">Boka biljett</a>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="../filer/bilder/a5.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Sommaren med dig</h5>
+                        <p class="card-text"><small class="text-muted">Drama</small></p>
+                        <p class="card-text">Astrid möter Kalle. Det var sommar, solen lyste och det mesta var grönt
+                            och fint. Tills den där dagen, dagen då Astrid mötte Kalle. Hennes liv förändras snabbt och
+                            omvärlden verkar inte förstå varför..
+                        </p>
+                        <p class="card-text"><small class="text-muted"><strong>Visas:</strong> 2018-10-25 kl. 17:30
+                            </small></p>
+                        <p class="card-text"><small class="text-muted"><strong>Visas:</strong> 2018-10-26 kl. 20:00
+                            </small></p>
+                        <p class="card-text"><small class="text-muted"><strong>Visas:</strong> 2018-10-27 kl. 18:30
+                            </small></p>
+                        <p class="card-text"><small class="text-muted"><strong>Visas:</strong> 2018-10-28 kl. 21:00
+                            </small></p>
+                        <p class="card-text"><small class="text-muted"><strong>Visas:</strong> 2018-10-29 kl. 20:00
+                            </small></p>
+                    </div>
+                    <a class="btn btn-basic link_brownButton" style="margin: 20px" href="../biljetter/kopa_och_boka.html"
+                        role="button">Boka biljett</a>
+                </div>
+
+                <div class="card">
+                    <img class="card-img-top" src="../filer/bilder/a6_267_400.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">In to the woods</h5>
+                        <p class="card-text"><small class="text-muted">Drama</small></p>
+                        <p class="card-text">Mystiska grannar börjar plötsligt agera väldigt konstigt. Du trodde du var
+                            säker hemma? Inte längre. Denna dramafilm ger dig en ny upplevelse och en hel del nya
+                            känslor.
+                        </p>
+                        <p class="card-text"><small class="text-muted"><strong>Visas:</strong> 2018-10-25 kl. 17:30
+                            </small></p>
+                        <p class="card-text"><small class="text-muted"><strong>Visas:</strong> 2018-10-26 kl. 18:30
+                            </small></p>
+                        <p class="card-text"><small class="text-muted"><strong>Visas:</strong> 2018-10-27 kl. 18:30
+                            </small></p>
+                        <p class="card-text"><small class="text-muted"><strong>Visas:</strong> 2018-10-28 kl. 21:00
+                            </small></p>
+                        <p class="card-text"><small class="text-muted"><strong>Visas:</strong> 2018-10-29 kl. 20:00
+                            </small></p>
+                    </div>
+                    <a class="btn btn-basic link_brownButton" style="margin: 20px" href="../biljetter/kopa_och_boka.html"
+                        role="button">Boka biljett</a>
+                </div>
+            </div>
+            <br><br>
+            <div class="card-deck">
+                <div class="card">
+                    <img class="card-img-top" src="../filer/bilder/a7.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Bangkok </h5>
+                        <p class="card-text"><small class="text-muted">Action</small></p>
+                        <p class="card-text">
+                            Under en resa till Bangkok passar grabbgänget att gå på en partyrunda. På en nattklubb
+                            träffar de vacka Cherry som bjuder in killarna till en efterfest till en ö. De borde inte
+                            ha tackat ja till den inbjudningen...
+                        </p>
+                        <p class="card-text"><small class="text-muted"><strong>Visas:</strong> 2018-10-25 kl. 17:30
+                            </small></p>
+                        <p class="card-text"><small class="text-muted"><strong>Visas:</strong> 2018-10-26 kl. 20:00
+                            </small></p>
+                        <p class="card-text"><small class="text-muted"><strong>Visas:</strong> 2018-10-27 kl. 18:30
+                            </small></p>
+                        <p class="card-text"><small class="text-muted"><strong>Visas:</strong> 2018-10-28 kl. 21:00
+                            </small></p>
+                        <p class="card-text"><small class="text-muted"><strong>Visas:</strong> 2018-10-29 kl. 20:00
+                            </small></p>
+                    </div>
+                    <a class="btn btn-basic link_brownButton" style="margin: 20px" href="../biljetter/kopa_och_boka.html"
+                        role="button">Boka biljett</a>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="../filer/bilder/a8.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Decade</h5>
+                        <p class="card-text"><small class="text-muted">Komedi</small></p>
+                        <p class="card-text">En grupp problemmakare tvingas delta i nattskolan i hopp om att de ska
+                            klara GED-examen för att sluta gymnasiet. Vem kommer faktiskt göra det ..?
+                        </p>
+                        <p class="card-text"><small class="text-muted"><strong>Visas:</strong> 2018-10-25 kl. 15:00
+                            </small></p>
+                        <p class="card-text"><small class="text-muted"><strong>Visas:</strong> 2018-10-26 kl. 17:30
+                            </small></p>
+                        <p class="card-text"><small class="text-muted"><strong>Visas:</strong> 2018-10-27 kl. 18:30
+                            </small></p>
+                        <p class="card-text"><small class="text-muted"><strong>Visas:</strong> 2018-10-28 kl. 21:00
+                            </small></p>
+                        <p class="card-text"><small class="text-muted"><strong>Visas:</strong> 2018-10-29 kl. 20:00
+                            </small></p>
+                    </div>
+                    <a class="btn btn-basic link_brownButton" style="margin: 20px" href="../biljetter/kopa_och_boka.html"
+                        role="button">Boka biljett</a>
+                </div>
+
+                <div class="card">
+                    <img class="card-img-top" src="../filer/bilder/a10.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Steven M.</h5>
+                        <p class="card-text"><small class="text-muted">Drama</small></p>
+                        <p class="card-text">Ett mörker sveper in i ett världsberömt dansföretag, en som kommer att
+                            försvaga den konstnärliga regissören, en ambitiös ung dansare och en sörjande
+                            psykoterapeut. Vissa kommer att ge efter för mardrömmen. Andra kommer äntligen att vakna...
+                        </p>
+                        <p class="card-text"><small class="text-muted"><strong>Visas:</strong> 2018-10-25 kl. 17:30
+                            </small></p>
+                        <p class="card-text"><small class="text-muted"><strong>Visas:</strong> 2018-10-26 kl. 17:30
+                            </small></p>
+                        <p class="card-text"><small class="text-muted"><strong>Visas:</strong> 2018-10-27 kl. 21:00
+                            </small></p>
+                        <p class="card-text"><small class="text-muted"><strong>Visas:</strong> 2018-10-28 kl. 18:30
+                            </small></p>
+                        <p class="card-text"><small class="text-muted"><strong>Visas:</strong> 2018-10-29 kl. 20:00
+                            </small></p>
+                    </div>
+                    <a class="btn btn-basic link_brownButton" style="margin: 20px" href="../biljetter/kopa_och_boka.html"
+                        role="button">Boka biljett</a>
+                </div>
+
+            </div>
+            <div class="card-deck">
+                <div class="card">
+                    <img class="card-img-top" src="../filer/bilder/a9.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Lost in the mountains</h5>
+                        <p class="card-text"><small class="text-muted">Action</small></p>
+                        <p class="card-text">Tre äventyrare åker till Alaska för att vandra i bergen. Allt börjar bra
+                            tills stormen drar in...
+                        </p>
+                        <p class="card-text"><small class="text-muted"><strong>Visas:</strong> 2018-10-25 kl. 18:30
+                            </small></p>
+                        <p class="card-text"><small class="text-muted"><strong>Visas:</strong> 2018-10-26 kl. 17:30
+                            </small></p>
+                        <p class="card-text"><small class="text-muted"><strong>Visas:</strong> 2018-10-27 kl. 18:30
+                            </small></p>
+                        <p class="card-text"><small class="text-muted"><strong>Visas:</strong> 2018-10-28 kl. 21:00
+                            </small></p>
+                        <p class="card-text"><small class="text-muted"><strong>Visas:</strong> 2018-10-29 kl. 20:00
+                            </small></p>
+                    </div>
+                    <a class="btn btn-basic link_brownButton" style="margin: 20px" href="../biljetter/kopa_och_boka.html"
+                        role="button">Boka biljett</a>
+                </div>
+                <div class="card invisible">
+                    <img class="card-img-top" src="../filer/bilder/a2.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Full Moon</h5>
+                        <p class="card-text"><small class="text-muted">Drama</small></p>
+                        <p class="card-text">Filmen följer John Nolan, en fyrtioårig man, som flyttar från sitt
+                            bekväma, småstadsliv till Los Angeles för att driva sin dröm om att vara polis för Los
+                            Angeles polis ...
+                        </p>
+                        <p class="card-text"><small class="text-muted"><strong>Visas:</strong> 2018-10-25 kl. 20:00
+                            </small></p>
+                        <p class="card-text"><small class="text-muted"><strong>Visas:</strong> 2018-10-26 kl. 17:30
+                            </small></p>
+                        <p class="card-text"><small class="text-muted"><strong>Visas:</strong> 2018-10-27 kl. 18:30
+                            </small></p>
+                        <p class="card-text"><small class="text-muted"><strong>Visas:</strong> 2018-10-28 kl. 18:30
+                            </small></p>
+                        <p class="card-text"><small class="text-muted"><strong>Visas:</strong> 2018-10-29 kl. 20:00
+                            </small></p>
+                    </div>
+                    <a class="btn btn-basic link_brownButton" style="margin: 20px" href="../biljetter/kopa_och_boka.html"
+                        role="button">Boka biljett</a>
+                </div>
+                <div class="card invisible">
+                    <img class="card-img-top" src="../filer/bilder/a3.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Besökaren</h5>
+                        <p class="card-text"><small class="text-muted">Drama</small></p>
+                        <p class="card-text">Filmen följer John Nolan, en fyrtioårig man, som flyttar från sitt
+                            bekväma, småstadsliv till Los Angeles för att driva sin dröm om att vara polis för Los
+                            Angeles polis ...
+                        </p>
+                        <p class="card-text"><small class="text-muted"><strong>Visas:</strong> 2018-10-25 kl. 21:00
+                            </small></p>
+                        <p class="card-text"><small class="text-muted"><strong>Visas:</strong> 2018-10-26 kl. 17:30
+                            </small></p>
+                        <p class="card-text"><small class="text-muted"><strong>Visas:</strong> 2018-10-27 kl. 20:00
+                            </small></p>
+                        <p class="card-text"><small class="text-muted"><strong>Visas:</strong> 2018-10-28 kl. 18:30
+                            </small></p>
+                        <p class="card-text"><small class="text-muted"><strong>Visas:</strong> 2018-10-29 kl. 20:00
+                            </small></p>
+                    </div>
+                    <a class="btn btn-basic link_brownButton" style="margin: 20px" href="../biljetter/kopa_och_boka.html"
+                        role="button">Boka biljett</a>
+                </div>
+            </div>
+            <div style="border: none" class="card">
+            </div>
+        </div>
+
+
+
+        <br><br><br><br><br><br><br><br><br><br>
+    </main><!-- /.container -->
+
+    <!-- Footer -->
+    <footer class="container-fluid">
+        <div class="row">
+            <div class="shadow-lg fanny-box">
+                <label>
+                    <legend class="font-weight-bold fanny-h1">Anmäl dig för nyhetsbrev!</legend>
+                    <p class="font-weight-light text-secondary fanny-p-first">Var först med de senaste nyheterna!</p>
+                    <input class="text-secondary fanny-input" placeholder="Ange din epostadress.."> <button class="btn btn-outline-dark fanny-button">Registrera</button>
+                    <br>
+                    <p class="font-weight-light text-secondary fanny-p-last">Oroa dig inte, du kan avregistrera dig
+                        från listan när du vill!</p>
+                </label>
+            </div>
+        </div>
+        <dl class="row">
+            <div class="col-sm-12 col-md-2">
+                <dt class="col-sm-12"><a href="#">Biljetter</a></dt>
+                <dd class="col-sm-12"><a href="../biljetter/kopa_och_boka.html">Köp och boka</a></dd>
+                <dd class="col-sm-12"><a href="../biljetter/priser.html">Biljettpris och info</a></dd>
+            </div>
+
+            <div class="col-sm-12 col-md-2">
+                <dt class="col-sm-12"><a href="#">Filmer</a></dt>
+                <dd class="col-sm-12"><a href="aktuella.html">Aktuella filmer</a></dd>
+                <dd class="col-sm-12"><a href="kommande.html">Kommande filmer</a></dd>
+            </div>
+
+            <div class="col-sm-12 col-md-2">
+                <dt class="col-sm-12"><a href="#">Erbjudanden</a></dt>
+                <dd class="col-sm-12"><a href="../erbjudanden/presentkort.html">Presentkort</a></dd>
+                <dd class="col-sm-12"><a href="../erbjudanden/medlemskort.html">Medlemskort</a></dd>
+            </div>
+
+            <div class="col-sm-12 col-md-2">
+                <dt class="col-sm-12"><a href="#">Frontend Bistro</a></dt>
+                <dd class="col-sm-12"><a href="../bistro/bistro.html">Meny</a></dd>
+                <dd class="col-sm-12"><a href="../bistro/boka-bord.html">Boka bord</a></dd>
+            </div>
+
+            <div class="col-sm-12 col-md-2">
+                <dt class="col-sm-12"><a href="#">Kontakta oss</a></dt>
+                <dd class="col-sm-12"><a href="../kontakt/kontakta-oss.html">Kontakt & Öppettider</a></dd>
+            </div>
+
+            <div class="col-sm-12 col-md-2">
+                <dt class="col-sm-12"><a href="#">Om oss</a></dt>
+                <dd class="col-sm-12"><a href="../om-oss/biograf.html">Biograf</a></dd>
+            </div>
+        </dl>
+        <div class="row justify-content-center">
+            <ul class="list-inline social-list">
+                <li class="list-inline-item social-item">
+                    <a href="#"><i class="fab fa-facebook-square"></i></a>
+                </li>
+                <li class="list-inline-item social-item">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li class="list-inline-item social-item">
+                    <a href="#"><i class="fab fa-twitter-square"></i></a>
+                </li>
+            </ul>
+            <br>
+        </div>
+        <div class="row justify-content-center">
+            <h4>#TeamFrontEnd</h4>
+        </div>
+        <div class="row copy-container justify-content-center">
+            <p>Copyright &copy; TeamFrontEnd</p>
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
