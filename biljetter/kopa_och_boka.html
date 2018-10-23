@@ -36,54 +36,52 @@
             <nav class="navbar top-nav-container">
                 <!-- UL -->
                 <ul class="nav flex-column flex-md-row justify-content-end">
+                    <a class="navbar-brand" href="#" style="text-align: center;"><img src="filer/bilder/logga.png"
+                            style="width: 120px;"></a>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Biljetter
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown">Biljetter
                             <span class="caret"></span></a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Köp och boka</a>
-                            <a class="dropdown-item" href="#">Biljettpris och info</a>
+                            <a class="dropdown-item" href="kopa_och_boka.html">Köp och boka</a>
+                            <a class="dropdown-item" href="priser.html">Biljettpris och info</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-expanded="false">Filmer
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Filmer
                             <span class="caret"></span></a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Aktuella filmer</a>
-                            <a class="dropdown-item" href="#">Kommande fillmer</a>
+                            <a class="dropdown-item" href="../filmer/aktuella.html">Aktuella filmer</a>
+                            <a class="dropdown-item" href="../filmer/kommande.html">Kommande filmer</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-expanded="false">Erbjudanden
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Erbjudanden
                             <span class="caret"></span></a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Presentkort</a>
-                            <a class="dropdown-item" href="#">Medlemskort</a>
+                            <a class="dropdown-item" href="../erbjudanden/presentkort.html">Presentkort</a>
+                            <a class="dropdown-item" href="../erbjudanden/medlemskort.html">Medlemskort</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-expanded="false">Frontend
-                            Bistro
-                            <span class="caret"></span></a>
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Frontend
+                            Bistro<span class="caret"></span></a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Meny</a>
-                            <a class="dropdown-item" href="#">Boka bord</a>
+                            <a class="dropdown-item" href="../bistro/bistro.html">Meny</a>
+                            <a class="dropdown-item" href="../bistro/boka-bord.html">Boka bord</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-expanded="false">Kontakta
-                            Oss
-                            <span class="caret"></span></a>
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Kontakta
+                            Oss <span class="caret"></span></a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Hitta oss</a>
-                            <a class="dropdown-item" href="#">Öppettider</a>
+                            <a class="dropdown-item" href="../kontakt/kontakta-oss.html">Kontakt & Öppettider</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-expanded="false">Om
-                            Oss
-                            <span class="caret"></span></a>
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Om
+                            Oss<span class="caret"></span></a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Biograf</a>
+                            <a class="dropdown-item" href="../om-oss/biograf.html">Biograf</a>
                         </div>
                     </li>
                 </ul>
@@ -145,7 +143,7 @@
                             <option>5 november</option>
                             <option>6 november</option>
                             <option>7 november</option>
-        
+
                         </select>
                         <div class="invalid-feedback">
                             Välj ett datum i rullistan.
@@ -159,21 +157,26 @@
         </div>
 
         <!--Film 1-->
-         <!--Länka film 1 till modul 1 (efter filmlistan) genom koden "data-toggle="modal" data-target=".bd-example-modal-lg-film1" i bildlänk och titellänk-->
+        <!--Länka film 1 till modul 1 (efter filmlistan) genom koden "data-toggle="modal" data-target=".bd-example-modal-lg-film1" i bildlänk och titellänk-->
         <div class="container">
             <div class="row justify-content-center mb-2">
                 <div class="col-md-8">
                     <div class="container mt-3 p-3 border bg-light rounded">
                         <!-- Media top -->
                         <div class="media">
-                                <a href="#" data-toggle="modal" data-target=".bd-example-modal-lg-film1">
-    <!--Bildlänk-->             <img src="../filer/bilder/a1.jpg" class="align-self-start mr-3" alt="filmaffisch natt" style="width:100px"></a>
+                            <a href="#" data-toggle="modal" data-target=".bd-example-modal-lg-film1">
+                                <!--Bildlänk--> <img src="../filer/bilder/a1.jpg" class="align-self-start mr-3" alt="filmaffisch natt"
+                                    style="width:100px"></a>
                             <div class="media-body">
-    <!--Titellänk-->            <h5 class="rubrik"><a class="d-inline-block mb-2 text-dark" href="#" data-toggle="modal" data-target=".bd-example-modal-lg-film1">Det händer om natten</a></h5>
-                                <div class="mb-1 text-muted">Komedi &#124; 1 tim 30 min &#124; Från 7 år &#124; Ordinarie pris: 120 kr, medlemspris: 80 kr</div>
+                                <!--Titellänk-->
+                                <h5 class="rubrik"><a class="d-inline-block mb-2 text-dark" href="#" data-toggle="modal"
+                                        data-target=".bd-example-modal-lg-film1">Det händer om natten</a></h5>
+                                <div class="mb-1 text-muted">Komedi &#124; 1 tim 30 min &#124; Från 7 år &#124;
+                                    Ordinarie pris: 120 kr, medlemspris: 80 kr</div>
                                 <p><strong>50</strong> platser lediga av 75 &#124; Salong 1</p>
 
-                                <a class="btn btn-basic btn-sm link_brownButton" href="bokning/valja_biljetter.html" role="button">År-mån-dag kl. 15:00</a>
+                                <a class="btn btn-basic btn-sm link_brownButton" href="bokning/valja_biljetter.html"
+                                    role="button">År-mån-dag kl. 15:00</a>
                             </div>
                         </div>
                     </div>
@@ -188,34 +191,44 @@
                     <div class="container mt-3 p-3 border bg-light rounded">
                         <!-- Media top -->
                         <div class="media">
-        <!--Bildlänk-->     <a href="#" data-toggle="modal" data-target=".bd-example-modal-lg-film2">
-                            <img src="../filer/bilder/a5.jpg" class="align-self-start mr-3" alt="filmaffisch två kramande personer" style="width:100px"></a>
+                            <!--Bildlänk--> <a href="#" data-toggle="modal" data-target=".bd-example-modal-lg-film2">
+                                <img src="../filer/bilder/a5.jpg" class="align-self-start mr-3" alt="filmaffisch två kramande personer"
+                                    style="width:100px"></a>
                             <div class="media-body">
-        <!--Titellänk-->     <h5 class="rubrik"><a class="d-inline-block mb-2 text-dark" href="#" data-toggle="modal" data-target=".bd-example-modal-lg-film2">Sommaren med dig</a></h5>
-                                <div class="mb-1 text-muted">Drama &#124; 1 tim 30 min &#124; Från 7 år &#124; Ordinarie pris: 120 kr, medlemspris: 80 kr</div>
+                                <!--Titellänk-->
+                                <h5 class="rubrik"><a class="d-inline-block mb-2 text-dark" href="#" data-toggle="modal"
+                                        data-target=".bd-example-modal-lg-film2">Sommaren med dig</a></h5>
+                                <div class="mb-1 text-muted">Drama &#124; 1 tim 30 min &#124; Från 7 år &#124;
+                                    Ordinarie pris: 120 kr, medlemspris: 80 kr</div>
                                 <p><strong>50</strong> platser lediga av 75 &#124; Salong 2</p>
 
-                                <a class="btn btn-basic btn-sm link_brownButton" href="bokning/valja_biljetter.html" role="button">År-mån-dag kl. 17:00</a>
+                                <a class="btn btn-basic btn-sm link_brownButton" href="bokning/valja_biljetter.html"
+                                    role="button">År-mån-dag kl. 17:00</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-<!--Film 3-->
-<!--Länka film 3 till modul 3 (efter filmlistan) genom koden "data-toggle="modal" data-target=".bd-example-modal-lg-film3" i bildlänk och titellänk-->
+            <!--Film 3-->
+            <!--Länka film 3 till modul 3 (efter filmlistan) genom koden "data-toggle="modal" data-target=".bd-example-modal-lg-film3" i bildlänk och titellänk-->
             <div class="row justify-content-center mb-2">
                 <div class="col-md-8">
                     <div class="container mt-3 p-3 border bg-light rounded">
                         <!-- Media top -->
                         <div class="media">
-         <!--Bildlänk-->    <a href="#" data-toggle="modal" data-target=".bd-example-modal-lg-film3">
-                            <img src="../filer/bilder/a9.jpg" class="align-self-start mr-3" alt="filmaffisch berg" style="width:100px"></a>
+                            <!--Bildlänk--> <a href="#" data-toggle="modal" data-target=".bd-example-modal-lg-film3">
+                                <img src="../filer/bilder/a9.jpg" class="align-self-start mr-3" alt="filmaffisch berg"
+                                    style="width:100px"></a>
                             <div class="media-body">
-        <!--Titellänk-->     <h5 class="rubrik"><a class="d-inline-block mb-2 text-dark" href="#" data-toggle="modal" data-target=".bd-example-modal-lg-film3">Lost in the mountains</a></h5>
-                                 <div class="mb-1 text-muted">Action &#124; 1 tim 30 min &#124; Från 7 år &#124; Ordinarie pris: 120 kr, medlemspris: 80 kr</div>
+                                <!--Titellänk-->
+                                <h5 class="rubrik"><a class="d-inline-block mb-2 text-dark" href="#" data-toggle="modal"
+                                        data-target=".bd-example-modal-lg-film3">Lost in the mountains</a></h5>
+                                <div class="mb-1 text-muted">Action &#124; 1 tim 30 min &#124; Från 7 år &#124;
+                                    Ordinarie pris: 120 kr, medlemspris: 80 kr</div>
                                 <p><strong>50</strong> platser lediga av 75 &#124; Salong 3</p>
 
-                                <a class="btn btn-basic btn-sm link_brownButton" href="bokning/valja_biljetter.html" role="button">År-mån-dag kl. 18:30</a>
+                                <a class="btn btn-basic btn-sm link_brownButton" href="bokning/valja_biljetter.html"
+                                    role="button">År-mån-dag kl. 18:30</a>
                             </div>
                         </div>
                     </div>
@@ -223,20 +236,25 @@
             </div>
 
             <!--Film 4-->
-             <!--Länka film 4 till modul 4 (efter filmlistan) genom koden "data-toggle="modal" data-target=".bd-example-modal-lg-film4" i bildlänk och titellänk-->
+            <!--Länka film 4 till modul 4 (efter filmlistan) genom koden "data-toggle="modal" data-target=".bd-example-modal-lg-film4" i bildlänk och titellänk-->
             <div class="row justify-content-center mb-2">
                 <div class="col-md-8">
                     <div class="container mt-3 p-3 border bg-light rounded">
                         <!-- Media top -->
                         <div class="media">
-          <!--Bildlänk--> <a href="#" data-toggle="modal" data-target=".bd-example-modal-lg-film4">
-                            <img src="../filer/bilder/a13.jpg" class="align-self-start mr-3" alt="filmaffisch storstad" style="width:100px"></a>
+                            <!--Bildlänk--> <a href="#" data-toggle="modal" data-target=".bd-example-modal-lg-film4">
+                                <img src="../filer/bilder/a13.jpg" class="align-self-start mr-3" alt="filmaffisch storstad"
+                                    style="width:100px"></a>
                             <div class="media-body">
-        <!--Titellänk-->     <h5 class="rubrik"><a class="d-inline-block mb-2 text-dark" href="#" data-toggle="modal" data-target=".bd-example-modal-lg-film4">New York adventure</a></h5>
-                                <div class="mb-1 text-muted">Komedi &#124; 1 tim 30 min &#124; Från 7 år &#124; Ordinarie pris: 120 kr, medlemspris: 80 kr</div>
+                                <!--Titellänk-->
+                                <h5 class="rubrik"><a class="d-inline-block mb-2 text-dark" href="#" data-toggle="modal"
+                                        data-target=".bd-example-modal-lg-film4">New York adventure</a></h5>
+                                <div class="mb-1 text-muted">Komedi &#124; 1 tim 30 min &#124; Från 7 år &#124;
+                                    Ordinarie pris: 120 kr, medlemspris: 80 kr</div>
                                 <p><strong>50</strong> platser lediga av 75 &#124; Salong 1</p>
 
-                                <a class="btn btn-basic btn-sm link_brownButton" href="bokning/valja_biljetter.html" role="button">År-mån-dag kl. 20:00</a>
+                                <a class="btn btn-basic btn-sm link_brownButton" href="bokning/valja_biljetter.html"
+                                    role="button">År-mån-dag kl. 20:00</a>
                             </div>
                         </div>
                     </div>
@@ -250,15 +268,20 @@
                     <div class="container mt-3 mb-5 p-3 border bg-light rounded">
                         <!-- Media top -->
                         <div class="media">
-        <!--Bildlänk-->  <a href="#" data-toggle="modal" data-target=".bd-example-modal-lg-film5"> 
-                                    <img src="../filer/bilder/a15.jpg" class="align-self-start mr-3" alt="filmaffisch person vid biograf" style="width:100px"></a>
-  
+                            <!--Bildlänk--> <a href="#" data-toggle="modal" data-target=".bd-example-modal-lg-film5">
+                                <img src="../filer/bilder/a15.jpg" class="align-self-start mr-3" alt="filmaffisch person vid biograf"
+                                    style="width:100px"></a>
+
                             <div class="media-body">
-        <!--Titellänk-->    <h5 class="rubrik"><a class="d-inline-block mb-2 text-dark" href="#" data-toggle="modal" data-target=".bd-example-modal-lg-film5">Mitt liv som filmskapare</a></h5>
-                                <div class="mb-1 text-muted">Biografi &#124; 1 tim 30 min &#124; Från 7 år &#124; Ordinarie pris: 120 kr, medlemspris: 80 kr
+                                <!--Titellänk-->
+                                <h5 class="rubrik"><a class="d-inline-block mb-2 text-dark" href="#" data-toggle="modal"
+                                        data-target=".bd-example-modal-lg-film5">Mitt liv som filmskapare</a></h5>
+                                <div class="mb-1 text-muted">Biografi &#124; 1 tim 30 min &#124; Från 7 år &#124;
+                                    Ordinarie pris: 120 kr, medlemspris: 80 kr
                                     kr</div>
                                 <p><strong>50</strong> platser lediga av 75 &#124; Salong 2</p>
-                                <a class="btn btn-basic btn-sm link_brownButton" href="bokning/valja_biljetter.html" role="button">År-mån-dag kl. 21:00</a>
+                                <a class="btn btn-basic btn-sm link_brownButton" href="bokning/valja_biljetter.html"
+                                    role="button">År-mån-dag kl. 21:00</a>
                             </div>
                         </div>
                     </div>
@@ -266,196 +289,241 @@
             </div>
         </div>
 
-<!--modal popup-->
+        <!--modal popup-->
 
-<!--modal 1 till film 1: Kod "bd-example-modal-lg-film1" i <div class="modal fade bd-example-modal-lg-film1" nedan 
+        <!--modal 1 till film 1: Kod "bd-example-modal-lg-film1" i <div class="modal fade bd-example-modal-lg-film1" nedan 
 används för att länka till film 1 (filmlistan) "data-toggle="modal" data-target=".bd-example-modal-lg-film1" i bildlänk och titellänk -->
 
-<div class="modal fade bd-example-modal-lg-film1" id="film1" tabindex="-1" 
-role="dialog" aria-labelledby="film1" aria-hidden="true"><!-- Länkning till film 1 <div class="modal fade bd-example-modal-lg-film1"-->
-        <div class="modal-dialog modal-lg film" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title ml-3">Det händer om natten</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-lg-4 col-lg-4">
-                                <img src="../filer/bilder/a1.jpg" class="align-self-start mr-3" alt="filmaffisch natt" style="max-width:100%">
-                            </div>
-                            <div class="col-8 col-lg-8 filminfo_text">
-                                 <p><span class="filminfo_rubrik">Språk:</span> Engelska<br>
-                                    <span class="filminfo_rubrik">Textning:</span> Svenska<br>
-                                    <span class="filminfo_rubrik">Åldersgräns:</span> Från 7 år<br>
-                                    <span class="filminfo_rubrik">Speltid:</span> 1 timme 30 minuter</p>
-                                  <p><span class="filminfo_rubrik">Skådespelare:</span> Meryl Streep, Christine Baranski, Lily James, Colin Firth, Pierce Brosnan, Stellan Skarsgård, Julie Walters, Andy Garcia, Dominic Cooper, Cher.</p>
-                                  <p><span class="filminfo_rubrik">Handling:</span> Tio år efter Mamma Mia! The Movie återvänder vi till den grekiska pärlan Kalokairi i en ny musikalfilm med nya låtar baserade på ABBAs låtskatt. Mamma Mia! Here We Go Again tar oss tillbaka till det förflutna för att berätta historien om hur allt blev som det blev. Nya stjärnskottet Lily James (Baby Driver, Darkest Hour) axlar huvudrollen som unga Donna.</p>
+        <div class="modal fade bd-example-modal-lg-film1" id="film1" tabindex="-1" role="dialog" aria-labelledby="film1"
+            aria-hidden="true">
+            <!-- Länkning till film 1 <div class="modal fade bd-example-modal-lg-film1"-->
+            <div class="modal-dialog modal-lg film" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title ml-3">Det händer om natten</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-lg-4 col-lg-4">
+                                    <img src="../filer/bilder/a1.jpg" class="align-self-start mr-3" alt="filmaffisch natt"
+                                        style="max-width:100%">
+                                </div>
+                                <div class="col-8 col-lg-8 filminfo_text">
+                                    <p><span class="filminfo_rubrik">Språk:</span> Engelska<br>
+                                        <span class="filminfo_rubrik">Textning:</span> Svenska<br>
+                                        <span class="filminfo_rubrik">Åldersgräns:</span> Från 7 år<br>
+                                        <span class="filminfo_rubrik">Speltid:</span> 1 timme 30 minuter</p>
+                                    <p><span class="filminfo_rubrik">Skådespelare:</span> Meryl Streep, Christine
+                                        Baranski, Lily James, Colin Firth, Pierce Brosnan, Stellan Skarsgård, Julie
+                                        Walters, Andy Garcia, Dominic Cooper, Cher.</p>
+                                    <p><span class="filminfo_rubrik">Handling:</span> Tio år efter Mamma Mia! The Movie
+                                        återvänder vi till den grekiska pärlan Kalokairi i en ny musikalfilm med nya
+                                        låtar baserade på ABBAs låtskatt. Mamma Mia! Here We Go Again tar oss tillbaka
+                                        till det förflutna för att berätta historien om hur allt blev som det blev. Nya
+                                        stjärnskottet Lily James (Baby Driver, Darkest Hour) axlar huvudrollen som unga
+                                        Donna.</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-danger" data-dismiss="modal">Stäng</button>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Stäng</button>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-<!--modal 2 till film 2: Kod "bd-example-modal-lg-film2" i <div class="modal fade bd-example-modal-lg-film2" nedan 
+        <!--modal 2 till film 2: Kod "bd-example-modal-lg-film2" i <div class="modal fade bd-example-modal-lg-film2" nedan 
 används för att länka till film 2 (filmlistan) "data-toggle="modal" data-target=".bd-example-modal-lg-film2" i bildlänk och titellänk -->
 
 
-<div class="modal fade bd-example-modal-lg-film2" id="film2" tabindex="-1" 
-role="dialog" aria-labelledby="film2" aria-hidden="true"><!-- Länkning till film 2 <div class="modal fade bd-example-modal-lg-film2"-->
-        <div class="modal-dialog modal-lg film" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title ml-3">
+        <div class="modal fade bd-example-modal-lg-film2" id="film2" tabindex="-1" role="dialog" aria-labelledby="film2"
+            aria-hidden="true">
+            <!-- Länkning till film 2 <div class="modal fade bd-example-modal-lg-film2"-->
+            <div class="modal-dialog modal-lg film" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title ml-3">
                             Sommaren med dig</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-lg-4 col-lg-4">
-                                <img src="../filer/bilder/a5.jpg" class="align-self-start mr-3" alt="filmffisch två kramande personer" style="max-width:100%">
-                            </div>
-                            <div class="col-8 col-lg-8 filminfo_text">
-                                 <p><span class="filminfo_rubrik">Språk:</span> Engelska<br>
-                                    <span class="filminfo_rubrik">Textning:</span> Svenska<br>
-                                    <span class="filminfo_rubrik">Åldersgräns:</span> Från 7 år<br>
-                                    <span class="filminfo_rubrik">Speltid:</span> 1 timme 30 minuter</p>
-                                  <p><span class="filminfo_rubrik">Skådespelare:</span> Meryl Streep, Christine Baranski, Lily James, Colin Firth, Pierce Brosnan, Stellan Skarsgård, Julie Walters, Andy Garcia, Dominic Cooper, Cher.</p>
-                                  <p><span class="filminfo_rubrik">Handling:</span> Tio år efter Mamma Mia! The Movie återvänder vi till den grekiska pärlan Kalokairi i en ny musikalfilm med nya låtar baserade på ABBAs låtskatt. Mamma Mia! Here We Go Again tar oss tillbaka till det förflutna för att berätta historien om hur allt blev som det blev. Nya stjärnskottet Lily James (Baby Driver, Darkest Hour) axlar huvudrollen som unga Donna.</p>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-lg-4 col-lg-4">
+                                    <img src="../filer/bilder/a5.jpg" class="align-self-start mr-3" alt="filmffisch två kramande personer"
+                                        style="max-width:100%">
+                                </div>
+                                <div class="col-8 col-lg-8 filminfo_text">
+                                    <p><span class="filminfo_rubrik">Språk:</span> Engelska<br>
+                                        <span class="filminfo_rubrik">Textning:</span> Svenska<br>
+                                        <span class="filminfo_rubrik">Åldersgräns:</span> Från 7 år<br>
+                                        <span class="filminfo_rubrik">Speltid:</span> 1 timme 30 minuter</p>
+                                    <p><span class="filminfo_rubrik">Skådespelare:</span> Meryl Streep, Christine
+                                        Baranski, Lily James, Colin Firth, Pierce Brosnan, Stellan Skarsgård, Julie
+                                        Walters, Andy Garcia, Dominic Cooper, Cher.</p>
+                                    <p><span class="filminfo_rubrik">Handling:</span> Tio år efter Mamma Mia! The Movie
+                                        återvänder vi till den grekiska pärlan Kalokairi i en ny musikalfilm med nya
+                                        låtar baserade på ABBAs låtskatt. Mamma Mia! Here We Go Again tar oss tillbaka
+                                        till det förflutna för att berätta historien om hur allt blev som det blev. Nya
+                                        stjärnskottet Lily James (Baby Driver, Darkest Hour) axlar huvudrollen som unga
+                                        Donna.</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-danger" data-dismiss="modal">Stäng</button>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Stäng</button>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
-<!--modal 3 till film 3: Kod "bd-example-modal-lg-film3" i <div class="modal fade bd-example-modal-lg-film3" nedan 
+        <!--modal 3 till film 3: Kod "bd-example-modal-lg-film3" i <div class="modal fade bd-example-modal-lg-film3" nedan 
 används för att länka till film 3 (filmlistan) "data-toggle="modal" data-target=".bd-example-modal-lg-film3" i bildlänk och titellänk -->
 
-<div class="modal fade bd-example-modal-lg-film3" id="film3" tabindex="-1" 
-role="dialog" aria-labelledby="film3" aria-hidden="true"><!-- Länkning till film 3 <div class="modal fade bd-example-modal-lg-film3"-->
-        <div class="modal-dialog modal-lg film" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title ml-3">Lost in the mountains</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-lg-4 col-lg-4">
-                                <img src="../filer/bilder/a9.jpg" class="align-self-start mr-3" alt="filmaffisch berg" style="max-width:100%">
-                            </div>
-                            <div class="col-8 col-lg-8 filminfo_text">
-                                 <p><span class="filminfo_rubrik">Språk:</span> Engelska<br>
-                                    <span class="filminfo_rubrik">Textning:</span> Svenska<br>
-                                    <span class="filminfo_rubrik">Åldersgräns:</span> Från 7 år<br>
-                                    <span class="filminfo_rubrik">Speltid:</span> 1 timme 30 minuter</p>
-                                  <p><span class="filminfo_rubrik">Skådespelare:</span> Meryl Streep, Christine Baranski, Lily James, Colin Firth, Pierce Brosnan, Stellan Skarsgård, Julie Walters, Andy Garcia, Dominic Cooper, Cher.</p>
-                                  <p><span class="filminfo_rubrik">Handling:</span> Tio år efter Mamma Mia! The Movie återvänder vi till den grekiska pärlan Kalokairi i en ny musikalfilm med nya låtar baserade på ABBAs låtskatt. Mamma Mia! Here We Go Again tar oss tillbaka till det förflutna för att berätta historien om hur allt blev som det blev. Nya stjärnskottet Lily James (Baby Driver, Darkest Hour) axlar huvudrollen som unga Donna.</p>
+        <div class="modal fade bd-example-modal-lg-film3" id="film3" tabindex="-1" role="dialog" aria-labelledby="film3"
+            aria-hidden="true">
+            <!-- Länkning till film 3 <div class="modal fade bd-example-modal-lg-film3"-->
+            <div class="modal-dialog modal-lg film" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title ml-3">Lost in the mountains</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-lg-4 col-lg-4">
+                                    <img src="../filer/bilder/a9.jpg" class="align-self-start mr-3" alt="filmaffisch berg"
+                                        style="max-width:100%">
+                                </div>
+                                <div class="col-8 col-lg-8 filminfo_text">
+                                    <p><span class="filminfo_rubrik">Språk:</span> Engelska<br>
+                                        <span class="filminfo_rubrik">Textning:</span> Svenska<br>
+                                        <span class="filminfo_rubrik">Åldersgräns:</span> Från 7 år<br>
+                                        <span class="filminfo_rubrik">Speltid:</span> 1 timme 30 minuter</p>
+                                    <p><span class="filminfo_rubrik">Skådespelare:</span> Meryl Streep, Christine
+                                        Baranski, Lily James, Colin Firth, Pierce Brosnan, Stellan Skarsgård, Julie
+                                        Walters, Andy Garcia, Dominic Cooper, Cher.</p>
+                                    <p><span class="filminfo_rubrik">Handling:</span> Tio år efter Mamma Mia! The Movie
+                                        återvänder vi till den grekiska pärlan Kalokairi i en ny musikalfilm med nya
+                                        låtar baserade på ABBAs låtskatt. Mamma Mia! Here We Go Again tar oss tillbaka
+                                        till det förflutna för att berätta historien om hur allt blev som det blev. Nya
+                                        stjärnskottet Lily James (Baby Driver, Darkest Hour) axlar huvudrollen som unga
+                                        Donna.</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-danger" data-dismiss="modal">Stäng</button>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Stäng</button>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
 
 
-<!--modal 4 till film 4: Kod "bd-example-modal-lg-film4" i <div class="modal fade bd-example-modal-lg-film4" nedan 
+        <!--modal 4 till film 4: Kod "bd-example-modal-lg-film4" i <div class="modal fade bd-example-modal-lg-film4" nedan 
 används för att länka till film 4 (filmlistan) "data-toggle="modal" data-target=".bd-example-modal-lg-film4" i bildlänk och titellänk -->
 
-<div class="modal fade bd-example-modal-lg-film4" id="film4" tabindex="-1" 
-role="dialog" aria-labelledby="film4" aria-hidden="true"><!-- Länkning till film 4 <div class="modal fade bd-example-modal-lg-film4"-->
-        <div class="modal-dialog modal-lg film" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title ml-3">New York adventure</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-lg-4 col-lg-4">
-                                <img src="../filer/bilder/a13.jpg" class="align-self-start mr-3" alt="filmaffisch storstad" style="max-width:100%">
-                            </div>
-                            <div class="col-8 col-lg-8 filminfo_text">
-                                 <p><span class="filminfo_rubrik">Språk:</span> Engelska<br>
-                                    <span class="filminfo_rubrik">Textning:</span> Svenska<br>
-                                    <span class="filminfo_rubrik">Åldersgräns:</span> Från 7 år<br>
-                                    <span class="filminfo_rubrik">Speltid:</span> 1 timme 30 minuter</p>
-                                  <p><span class="filminfo_rubrik">Skådespelare:</span> Meryl Streep, Christine Baranski, Lily James, Colin Firth, Pierce Brosnan, Stellan Skarsgård, Julie Walters, Andy Garcia, Dominic Cooper, Cher.</p>
-                                  <p><span class="filminfo_rubrik">Handling:</span> Tio år efter Mamma Mia! The Movie återvänder vi till den grekiska pärlan Kalokairi i en ny musikalfilm med nya låtar baserade på ABBAs låtskatt. Mamma Mia! Here We Go Again tar oss tillbaka till det förflutna för att berätta historien om hur allt blev som det blev. Nya stjärnskottet Lily James (Baby Driver, Darkest Hour) axlar huvudrollen som unga Donna.</p>
+        <div class="modal fade bd-example-modal-lg-film4" id="film4" tabindex="-1" role="dialog" aria-labelledby="film4"
+            aria-hidden="true">
+            <!-- Länkning till film 4 <div class="modal fade bd-example-modal-lg-film4"-->
+            <div class="modal-dialog modal-lg film" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title ml-3">New York adventure</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-lg-4 col-lg-4">
+                                    <img src="../filer/bilder/a13.jpg" class="align-self-start mr-3" alt="filmaffisch storstad"
+                                        style="max-width:100%">
+                                </div>
+                                <div class="col-8 col-lg-8 filminfo_text">
+                                    <p><span class="filminfo_rubrik">Språk:</span> Engelska<br>
+                                        <span class="filminfo_rubrik">Textning:</span> Svenska<br>
+                                        <span class="filminfo_rubrik">Åldersgräns:</span> Från 7 år<br>
+                                        <span class="filminfo_rubrik">Speltid:</span> 1 timme 30 minuter</p>
+                                    <p><span class="filminfo_rubrik">Skådespelare:</span> Meryl Streep, Christine
+                                        Baranski, Lily James, Colin Firth, Pierce Brosnan, Stellan Skarsgård, Julie
+                                        Walters, Andy Garcia, Dominic Cooper, Cher.</p>
+                                    <p><span class="filminfo_rubrik">Handling:</span> Tio år efter Mamma Mia! The Movie
+                                        återvänder vi till den grekiska pärlan Kalokairi i en ny musikalfilm med nya
+                                        låtar baserade på ABBAs låtskatt. Mamma Mia! Here We Go Again tar oss tillbaka
+                                        till det förflutna för att berätta historien om hur allt blev som det blev. Nya
+                                        stjärnskottet Lily James (Baby Driver, Darkest Hour) axlar huvudrollen som unga
+                                        Donna.</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-danger" data-dismiss="modal">Stäng</button>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Stäng</button>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
 
-<!--modal 5 till film 5: Kod "bd-example-modal-lg-film5" i <div class="modal fade bd-example-modal-lg-film5" nedan 
+        <!--modal 5 till film 5: Kod "bd-example-modal-lg-film5" i <div class="modal fade bd-example-modal-lg-film5" nedan 
 används för att länka till film 5 (filmlistan) "data-toggle="modal" data-target=".bd-example-modal-lg-film5" i bildlänk och titellänk -->
-    
-<div class="modal fade bd-example-modal-lg-film5" id="film5" tabindex="-1" role="dialog" 
-aria-labelledby="film5" aria-hidden="true"><!-- Länkning till film 5 <div class="modal fade bd-example-modal-lg-film5"-->
-    <div class="modal-dialog modal-lg film" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title ml-3">Mitt liv som filmskapare</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-lg-4 col-lg-4">
-                            <img src="../filer/bilder/a15.jpg" class="align-self-start mr-3" alt="filmaffisch person vid biograf" style="max-width:100%">
+
+        <div class="modal fade bd-example-modal-lg-film5" id="film5" tabindex="-1" role="dialog" aria-labelledby="film5"
+            aria-hidden="true">
+            <!-- Länkning till film 5 <div class="modal fade bd-example-modal-lg-film5"-->
+            <div class="modal-dialog modal-lg film" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title ml-3">Mitt liv som filmskapare</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-lg-4 col-lg-4">
+                                    <img src="../filer/bilder/a15.jpg" class="align-self-start mr-3" alt="filmaffisch person vid biograf"
+                                        style="max-width:100%">
+                                </div>
+                                <div class="col-8 col-lg-8 filminfo_text">
+                                    <p><span class="filminfo_rubrik">Språk:</span> Engelska<br>
+                                        <span class="filminfo_rubrik">Textning:</span> Svenska<br>
+                                        <span class="filminfo_rubrik">Åldersgräns:</span> Från 7 år<br>
+                                        <span class="filminfo_rubrik">Speltid:</span> 1 timme 30 minuter</p>
+                                    <p><span class="filminfo_rubrik">Skådespelare:</span> Meryl Streep, Christine
+                                        Baranski, Lily James, Colin Firth, Pierce Brosnan, Stellan Skarsgård, Julie
+                                        Walters, Andy Garcia, Dominic Cooper, Cher.</p>
+                                    <p><span class="filminfo_rubrik">Handling:</span> Tio år efter Mamma Mia! The Movie
+                                        återvänder vi till den grekiska pärlan Kalokairi i en ny musikalfilm med nya
+                                        låtar baserade på ABBAs låtskatt. Mamma Mia! Here We Go Again tar oss tillbaka
+                                        till det förflutna för att berätta historien om hur allt blev som det blev. Nya
+                                        stjärnskottet Lily James (Baby Driver, Darkest Hour) axlar huvudrollen som unga
+                                        Donna.</p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-8 col-lg-8 filminfo_text">
-                             <p><span class="filminfo_rubrik">Språk:</span> Engelska<br>
-                                <span class="filminfo_rubrik">Textning:</span> Svenska<br>
-                                <span class="filminfo_rubrik">Åldersgräns:</span> Från 7 år<br>
-                                <span class="filminfo_rubrik">Speltid:</span> 1 timme 30 minuter</p>
-                              <p><span class="filminfo_rubrik">Skådespelare:</span> Meryl Streep, Christine Baranski, Lily James, Colin Firth, Pierce Brosnan, Stellan Skarsgård, Julie Walters, Andy Garcia, Dominic Cooper, Cher.</p>
-                              <p><span class="filminfo_rubrik">Handling:</span> Tio år efter Mamma Mia! The Movie återvänder vi till den grekiska pärlan Kalokairi i en ny musikalfilm med nya låtar baserade på ABBAs låtskatt. Mamma Mia! Here We Go Again tar oss tillbaka till det förflutna för att berätta historien om hur allt blev som det blev. Nya stjärnskottet Lily James (Baby Driver, Darkest Hour) axlar huvudrollen som unga Donna.</p>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Stäng</button>
                         </div>
                     </div>
                 </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-dismiss="modal">Stäng</button>
-                </div>
             </div>
         </div>
-    </div>
-</div>
 
 
 
@@ -478,37 +546,36 @@ aria-labelledby="film5" aria-hidden="true"><!-- Länkning till film 5 <div class
         <dl class="row">
             <div class="col-sm-12 col-md-2">
                 <dt class="col-sm-12"><a href="#">Biljetter</a></dt>
-                <dd class="col-sm-12"><a href="#">Köp och boka</a></dd>
-                <dd class="col-sm-12"><a href="#">Biljettpris och info</a></dd>
+                <dd class="col-sm-12"><a href="kopa_och_boka.html">Köp och boka</a></dd>
+                <dd class="col-sm-12"><a href="priser.html">Biljettpris och info</a></dd>
             </div>
 
             <div class="col-sm-12 col-md-2">
                 <dt class="col-sm-12"><a href="#">Filmer</a></dt>
-                <dd class="col-sm-12"><a href="#">Aktuella filmer</a></dd>
-                <dd class="col-sm-12"><a href="#">Kommande filmer</a></dd>
+                <dd class="col-sm-12"><a href="../filmer/aktuella.html">Aktuella filmer</a></dd>
+                <dd class="col-sm-12"><a href="../filmer/kommande.html">Kommande filmer</a></dd>
             </div>
 
             <div class="col-sm-12 col-md-2">
                 <dt class="col-sm-12"><a href="#">Erbjudanden</a></dt>
-                <dd class="col-sm-12"><a href="#">Presentkort</a></dd>
-                <dd class="col-sm-12"><a href="#">Medlemskort</a></dd>
+                <dd class="col-sm-12"><a href="../erbjudanden/presentkort.html">Presentkort</a></dd>
+                <dd class="col-sm-12"><a href="../erbjudanden/medlemskort.html">Medlemskort</a></dd>
             </div>
 
             <div class="col-sm-12 col-md-2">
                 <dt class="col-sm-12"><a href="#">Frontend Bistro</a></dt>
-                <dd class="col-sm-12"><a href="#">Meny</a></dd>
-                <dd class="col-sm-12"><a href="#">Boka bord</a></dd>
+                <dd class="col-sm-12"><a href="../bistro/bistro.html">Meny</a></dd>
+                <dd class="col-sm-12"><a href="../bistro/boka-bord.html">Boka bord</a></dd>
             </div>
 
             <div class="col-sm-12 col-md-2">
                 <dt class="col-sm-12"><a href="#">Kontakta oss</a></dt>
-                <dd class="col-sm-12"><a href="#">Hitta oss</a></dd>
-                <dd class="col-sm-12"><a href="#">Öppettider</a></dd>
+                <dd class="col-sm-12"><a href="../kontakt/kontakta-oss.html">Kontakt & Öppettider</a></dd>
             </div>
 
             <div class="col-sm-12 col-md-2">
                 <dt class="col-sm-12"><a href="#">Om oss</a></dt>
-                <dd class="col-sm-12"><a href="#">Biograf</a></dd>
+                <dd class="col-sm-12"><a href="../om-oss/biograf.html">Biograf</a></dd>
             </div>
         </dl>
         <div class="row justify-content-center">
