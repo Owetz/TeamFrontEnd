@@ -27,6 +27,11 @@ body {
 .top-nav-container {
     height: 80px;
     color:white;
+    z-index: 10;
+}
+
+img.front-logo {
+    width: 100%;
 }
 .show {
     background:#00000073;
