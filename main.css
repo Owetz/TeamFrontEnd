@@ -421,6 +421,7 @@ overflow: hidden;
 {
     background-image: url(filer/bilder/startsida-bio2.jpg);
     transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
 }
 .fanny-box2
 {
@@ -434,6 +435,7 @@ overflow: hidden;
 {
     background-image: url(filer/bilder/startsida-bistro2.jpg);
     transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
 }
 .fanny-loggabio
 {
